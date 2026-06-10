@@ -1,0 +1,17 @@
+# Huquqshunos — statik bitta faylli sayt (build kerak emas)
+[build]
+  publish = "."
+
+# UTF-8 va kesh sarlavhalari
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Type = "text/html; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+
+# Har qanday yoʻl bosh sahifaga (yagona sahifali sayt)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
