@@ -31,7 +31,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{position:relative;font-family:var(--body);color:var(--ink);background:var(--paper);
+  body{font-family:var(--body);color:var(--ink);background:var(--paper);
     background-image:radial-gradient(135% 90% at 0% 0%,color-mix(in srgb,var(--teal) 9%,transparent),transparent 56%),radial-gradient(120% 80% at 100% 2%,color-mix(in srgb,var(--gold) 9%,transparent),transparent 52%);
     background-attachment:fixed;line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .35s,color .35s}
   body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.45;
@@ -190,10 +190,6 @@
   @media(max-width:640px){.lang-sel{font-size:13px;padding:6px 8px}.uzscripts button{padding:6px 8px;font-size:12px}
     .brand-text span{display:none}.topbar-in{gap:10px}}
 
-  .edge{position:absolute;top:0;bottom:0;width:48px;z-index:0;pointer-events:none;opacity:.5;background-repeat:repeat-y;background-position:center top;background-size:48px 160px;display:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2760%27%20height%3D%27200%27%20viewBox%3D%270%200%2060%20200%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23B5862A%27%20stroke-linecap%3D%27round%27%3E%3Cline%20x1%3D%2758%27%20y1%3D%270%27%20x2%3D%2758%27%20y2%3D%27200%27%20stroke-width%3D%271.1%27%2F%3E%3Cline%20x1%3D%2753.5%27%20y1%3D%270%27%20x2%3D%2753.5%27%20y2%3D%27200%27%20stroke-width%3D%270.7%27%20opacity%3D%270.55%27%2F%3E%3Cpath%20stroke-width%3D%271.6%27%20d%3D%27M30%200%20C37%2017%2041%2033%2041%2050%20C41%2067%2037%2083%2030%20100%20C23%20117%2019%20133%2019%20150%20C19%20167%2023%20183%2030%20200%27%2F%3E%3Cpath%20stroke-width%3D%271.1%27%20d%3D%27M41%2050%20C31%2047%2027%2039%2031%2031%27%2F%3E%3Cpath%20stroke-width%3D%271.1%27%20d%3D%27M19%20150%20C29%20147%2033%20139%2029%20131%27%2F%3E%3Cpath%20stroke-width%3D%271%27%20d%3D%27M41%2050%20C46%2044%2045%2036%2039%2033%27%2F%3E%3Cpath%20stroke-width%3D%271%27%20d%3D%27M19%20150%20C14%20156%2015%20164%2021%20167%27%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%27%23C39A38%27%3E%3Cpath%20d%3D%27M41%2050%20C53%2045%2059%2054%2051%2063%20C47%2067%2041%2062%2041%2056%20Z%27%2F%3E%3Cpath%20d%3D%27M19%20150%20C7%20145%201%20154%209%20163%20C13%20167%2019%20162%2019%20156%20Z%27%2F%3E%3Cpath%20d%3D%27M31%2031%20C37%2025%2035%2016%2028%2014%20C31%2021%2028%2028%2031%2031%20Z%27%2F%3E%3Cpath%20d%3D%27M29%20131%20C23%20125%2025%20116%2032%20114%20C29%20121%2032%20128%2029%20131%20Z%27%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%27%230F8050%27%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%270%27%20r%3D%272.1%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%27100%27%20r%3D%272.5%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%27200%27%20r%3D%272.1%27%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%27100%27%20r%3D%274.4%27%20fill%3D%27none%27%20stroke%3D%27%23B5862A%27%20stroke-width%3D%270.8%27%20opacity%3D%270.7%27%2F%3E%3C%2Fsvg%3E")}
-  .edge.left{left:6px}
-  .edge.right{right:6px;transform:scaleX(-1)}
-  @media(min-width:1330px){.edge{display:block}}
   /* ===== SAYT FOOTERI ===== */
   .site-foot{margin-top:56px;border-top:1px solid var(--line);background:var(--paper-2);
     background-image:radial-gradient(120% 100% at 50% 0%,color-mix(in srgb,var(--gold) 7%,transparent),transparent 60%)}
@@ -220,7 +216,6 @@
 <g fill="#0F8050"><use href="#pB" transform="rotate(22.5 50 50)"/><use href="#pB" transform="rotate(67.5 50 50)"/><use href="#pB" transform="rotate(112.5 50 50)"/><use href="#pB" transform="rotate(157.5 50 50)"/><use href="#pB" transform="rotate(202.5 50 50)"/><use href="#pB" transform="rotate(247.5 50 50)"/><use href="#pB" transform="rotate(292.5 50 50)"/><use href="#pB" transform="rotate(337.5 50 50)"/></g>
 <circle cx="50" cy="50" r="7.5" fill="#B68A2E"/><circle cx="50" cy="50" r="3.4" fill="#FBF7EC"/>
 </symbol><symbol id="mizan" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="13.5" r="3" fill="currentColor" stroke="none"/><line x1="50" y1="17" x2="50" y2="71"/><line x1="26" y1="29" x2="74" y2="29"/><circle cx="50" cy="29" r="2.6" fill="currentColor" stroke="none"/><path d="M26 29 L18 47 M26 29 L34 47"/><path d="M18 47 Q26 58 34 47"/><path d="M74 29 L66 47 M74 29 L82 47"/><path d="M66 47 Q74 58 82 47"/><line x1="39" y1="72" x2="61" y2="72"/><line x1="45" y1="78" x2="55" y2="78"/></g></symbol></svg>
-<div class="edge left"></div><div class="edge right"></div>
 <header class="topbar">
   <div class="topbar-in">
     <div class="brand" id="brandHome">
