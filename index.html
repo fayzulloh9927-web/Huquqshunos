@@ -6,13 +6,13 @@
 <title>Huquqshunos — Sharhli kodekslar</title>
 <style>
   :root{
-    --paper:#F4EFE3; --paper-2:#ECE5D4; --panel:#FBF7EC;
-    --ink:#1B2A2A; --ink-soft:#525E59; --ink-faint:#8A8676;
-    --line:#DBD2BC; --line-soft:#E8E1CF;
-    --teal:#12686C; --teal-bright:#1A9AA0; --teal-deep:#0E5256;
-    --gold:#B68A2E; --gold-soft:#d8b75f;
-    --pom:#9F2F36; --pom-soft:#c25a5f;
-    --pop-bg:#15302F; --pop-fg:#EEE7D5;
+    --paper:#F7F0DA; --paper-2:#F0E7CD; --panel:#FCF9EE;
+    --ink:#23281C; --ink-soft:#566049; --ink-faint:#8C8666;
+    --line:#E0D4B4; --line-soft:#ECE2C8;
+    --teal:#0F8050; --teal-bright:#15A268; --teal-deep:#0B5236; --green-deep:#0C4A31; --law-bg:#0E4A35; --law-fg:#F4EED7;
+    --gold:#C0962C; --gold-soft:#DDB94E;
+    --pom:#A8362B; --pom-soft:#c45a4d;
+    --pop-bg:#0C2C21; --pop-fg:#F2EBD6;
     --shadow:22px 26px 64px rgba(20,40,40,.13); --r:14px; --maxw:1160px;
     --disp:'Iowan Old Style','Palatino Linotype','Palatino','Book Antiqua',Georgia,'Times New Roman',serif;
     --body:Georgia,'Charter','Iowan Old Style','Times New Roman',serif;
@@ -20,13 +20,13 @@
     --serif:var(--body);
   }
   html[data-theme="dark"]{
-    --paper:#0F1B1C; --paper-2:#142525; --panel:#16211F;
-    --ink:#EAE3D1; --ink-soft:#A9B2A8; --ink-faint:#7C8276;
-    --line:#27332D; --line-soft:#202B26;
-    --teal:#46B6BB; --teal-bright:#62CDD1; --teal-deep:#2C8589;
-    --gold:#D2B25E; --gold-soft:#e8cf88;
-    --pom:#D86A66; --pom-soft:#e08b87;
-    --pop-bg:#06100F; --pop-fg:#EEE7D5;
+    --paper:#0E1512; --paper-2:#121C17; --panel:#13201A;
+    --ink:#ECE5D0; --ink-soft:#AAB3A0; --ink-faint:#7F8570;
+    --line:#27342B; --line-soft:#1E2A22;
+    --teal:#34BE83; --teal-bright:#4FD699; --teal-deep:#1F8F60; --green-deep:#0C4A33; --law-bg:#0C3C2B; --law-fg:#EEE7D1;
+    --gold:#D9B85A; --gold-soft:#ecd089;
+    --pom:#DA6A5B; --pom-soft:#e58b7e;
+    --pop-bg:#06140F; --pop-fg:#F1EAD5;
     --shadow:22px 26px 64px rgba(0,0,0,.5);
   }
   *{box-sizing:border-box;margin:0;padding:0}
@@ -42,8 +42,8 @@
   header.topbar{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .topbar-in{max-width:var(--maxw);margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:18px}
   .brand{display:flex;align-items:center;gap:12px;cursor:pointer}
-  .seal{width:46px;height:46px;flex:none;background:var(--panel);border:1.5px solid var(--gold-soft);
-    border-radius:14px 14px 6px 6px;display:grid;place-items:center}
+  .seal{width:46px;height:46px;flex:none;background:var(--green-deep);border:1.5px solid var(--gold-soft);color:var(--gold-soft);
+    border-radius:14px 14px 6px 6px;display:grid;place-items:center;box-shadow:0 4px 14px color-mix(in srgb,var(--green-deep) 55%,transparent)}
   .seal svg{width:30px;height:30px;display:block}
   .brand-text b{font-family:var(--disp);font-weight:700;font-size:22px;letter-spacing:.2px;display:block;line-height:1;color:var(--teal)}
   .brand-text span{font-family:var(--ui);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
@@ -106,7 +106,7 @@
   .law{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:8px 26px 14px}
   .part{padding:15px 0;border-bottom:1px dashed var(--line)}
   .part:last-child{border-bottom:none}
-  .part .pn{font-family:var(--disp);font-weight:700;color:var(--pom);font-size:15px;margin-right:8px;float:left}
+  .part .pn{font-family:var(--disp);font-weight:700;color:var(--teal);font-size:15px;margin-right:8px;float:left}
   .part p{font-size:17px;line-height:1.72;text-align:justify;hyphens:auto}
   .lawlist{list-style:none;margin:6px 0 2px;padding-left:18px}
   .lawlist li{font-size:16.5px;line-height:1.62;padding:4px 0}
@@ -190,12 +190,16 @@
   @media(max-width:640px){.lang-sel{font-size:13px;padding:6px 8px}.uzscripts button{padding:6px 8px;font-size:12px}
     .brand-text span{display:none}.topbar-in{gap:10px}}
 
+  .edge{position:fixed;top:0;bottom:0;width:44px;z-index:0;pointer-events:none;opacity:.6;background-repeat:repeat-y;background-position:center top;background-size:44px auto;display:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2744%27%20height%3D%27150%27%3E%3Cline%20x1%3D%2722%27%20y1%3D%270%27%20x2%3D%2722%27%20y2%3D%27150%27%20stroke%3D%27%23C0962C%27%20stroke-width%3D%271.1%27%20opacity%3D%270.55%27%2F%3E%3Cg%20fill%3D%27%23C0962C%27%20opacity%3D%270.5%27%3E%3Ccircle%20cx%3D%2722%27%20cy%3D%279%27%20r%3D%271.9%27%2F%3E%3Ccircle%20cx%3D%2722%27%20cy%3D%27141%27%20r%3D%271.9%27%2F%3E%3Cellipse%20cx%3D%2722%27%20cy%3D%2766%27%20rx%3D%273.1%27%20ry%3D%276%27%2F%3E%3Cellipse%20cx%3D%2722%27%20cy%3D%2784%27%20rx%3D%273.1%27%20ry%3D%276%27%2F%3E%3Cellipse%20cx%3D%2713%27%20cy%3D%2775%27%20rx%3D%276%27%20ry%3D%273.1%27%2F%3E%3Cellipse%20cx%3D%2731%27%20cy%3D%2775%27%20rx%3D%276%27%20ry%3D%273.1%27%2F%3E%3Ccircle%20cx%3D%2722%27%20cy%3D%2775%27%20r%3D%272.3%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")}
+  .edge.left{left:8px}
+  .edge.right{right:8px;transform:scaleX(-1)}
+  @media(min-width:1330px){.edge{display:block}}
   /* ===== SAYT FOOTERI ===== */
   .site-foot{margin-top:56px;border-top:1px solid var(--line);background:var(--paper-2);
     background-image:radial-gradient(120% 100% at 50% 0%,color-mix(in srgb,var(--gold) 7%,transparent),transparent 60%)}
   .site-foot .foot-in{max-width:var(--maxw);margin:0 auto;padding:40px 22px 8px;display:grid;grid-template-columns:1.15fr 1fr;gap:26px 52px}
   .site-foot .foot-brand{font-family:var(--disp);font-size:22px;font-weight:700;color:var(--teal);letter-spacing:.2px;margin-bottom:11px;display:flex;align-items:center;gap:11px}
-  .site-foot .foot-brand svg{width:26px;height:26px;flex:none}
+  .site-foot .foot-brand svg{width:28px;height:28px;flex:none;color:var(--teal)}
   .site-foot h4{font-family:var(--ui);font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);margin-bottom:9px;font-weight:700}
   .site-foot .foot-about,.site-foot .foot-disc{font-size:13.5px;line-height:1.68;color:var(--ink-soft)}
   .site-foot .foot-bottom{font-family:var(--ui);max-width:var(--maxw);margin:24px auto 0;padding:15px 22px 36px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--ink-faint);display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
@@ -211,15 +215,16 @@
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="gul" viewBox="0 0 100 100">
 <defs><path id="pA" d="M50 50 C43 33 43 20 50 8 C57 20 57 33 50 50 Z"/><path id="pB" d="M50 50 C45.5 39 45.5 30 50 23 C54.5 30 54.5 39 50 50 Z"/></defs>
 <circle cx="50" cy="50" r="47" fill="none" stroke="#B68A2E" stroke-width="1.3" opacity=".55"/>
-<circle cx="50" cy="50" r="43" fill="none" stroke="#168A90" stroke-width="1" opacity=".4"/>
+<circle cx="50" cy="50" r="43" fill="none" stroke="#0F8050" stroke-width="1" opacity=".4"/>
 <g fill="#B68A2E"><use href="#pA"/><use href="#pA" transform="rotate(45 50 50)"/><use href="#pA" transform="rotate(90 50 50)"/><use href="#pA" transform="rotate(135 50 50)"/><use href="#pA" transform="rotate(180 50 50)"/><use href="#pA" transform="rotate(225 50 50)"/><use href="#pA" transform="rotate(270 50 50)"/><use href="#pA" transform="rotate(315 50 50)"/></g>
-<g fill="#168A90"><use href="#pB" transform="rotate(22.5 50 50)"/><use href="#pB" transform="rotate(67.5 50 50)"/><use href="#pB" transform="rotate(112.5 50 50)"/><use href="#pB" transform="rotate(157.5 50 50)"/><use href="#pB" transform="rotate(202.5 50 50)"/><use href="#pB" transform="rotate(247.5 50 50)"/><use href="#pB" transform="rotate(292.5 50 50)"/><use href="#pB" transform="rotate(337.5 50 50)"/></g>
+<g fill="#0F8050"><use href="#pB" transform="rotate(22.5 50 50)"/><use href="#pB" transform="rotate(67.5 50 50)"/><use href="#pB" transform="rotate(112.5 50 50)"/><use href="#pB" transform="rotate(157.5 50 50)"/><use href="#pB" transform="rotate(202.5 50 50)"/><use href="#pB" transform="rotate(247.5 50 50)"/><use href="#pB" transform="rotate(292.5 50 50)"/><use href="#pB" transform="rotate(337.5 50 50)"/></g>
 <circle cx="50" cy="50" r="7.5" fill="#B68A2E"/><circle cx="50" cy="50" r="3.4" fill="#FBF7EC"/>
-</symbol></svg>
+</symbol><symbol id="mizan" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="13.5" r="3" fill="currentColor" stroke="none"/><line x1="50" y1="17" x2="50" y2="71"/><line x1="26" y1="29" x2="74" y2="29"/><circle cx="50" cy="29" r="2.6" fill="currentColor" stroke="none"/><path d="M26 29 L18 47 M26 29 L34 47"/><path d="M18 47 Q26 58 34 47"/><path d="M74 29 L66 47 M74 29 L82 47"/><path d="M66 47 Q74 58 82 47"/><line x1="39" y1="72" x2="61" y2="72"/><line x1="45" y1="78" x2="55" y2="78"/></g></symbol></svg>
+<div class="edge left"></div><div class="edge right"></div>
 <header class="topbar">
   <div class="topbar-in">
     <div class="brand" id="brandHome">
-      <div class="seal noloc"><svg width="30" height="30" aria-label="Huquqshunos"><use href="#gul"/></svg></div>
+      <div class="seal noloc"><svg width="30" height="30" aria-label="Huquqshunos"><use href="#mizan"/></svg></div>
       <div class="brand-text"><b class="noloc">Huquqshunos</b><span>Sharhli kodekslar</span></div>
     </div>
     <div class="lang-wrap noloc">
@@ -707,7 +712,7 @@ function renderFooter(){
   f.innerHTML=`
     <div class="foot-in">
       <div class="foot-col">
-        <div class="foot-brand noloc"><svg width="26" height="26"><use href="#gul"/></svg>Huquqshunos</div>
+        <div class="foot-brand noloc"><svg width="28" height="28"><use href="#mizan"/></svg>Huquqshunos</div>
         <p class="foot-about">${pick(SITE.about)}</p>
         <p class="foot-src">${pick(SITE.srcLabel)}: <a class="noloc" href="https://lex.uz" target="_blank" rel="noopener">lex.uz</a></p>
       </div>
