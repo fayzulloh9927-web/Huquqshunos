@@ -31,7 +31,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:var(--body);color:var(--ink);background:var(--paper);
+  body{position:relative;font-family:var(--body);color:var(--ink);background:var(--paper);
     background-image:radial-gradient(135% 90% at 0% 0%,color-mix(in srgb,var(--teal) 9%,transparent),transparent 56%),radial-gradient(120% 80% at 100% 2%,color-mix(in srgb,var(--gold) 9%,transparent),transparent 52%);
     background-attachment:fixed;line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .35s,color .35s}
   body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.45;
@@ -101,8 +101,6 @@
   .divider{display:flex;align-items:center;gap:14px;margin:40px 0 22px}
   .divider .lbl{font-family:var(--ui);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--pom);font-weight:700;white-space:nowrap}
   .divider .ln{flex:1;height:1px;background:var(--line)}
-  .divider .dot{width:18px;height:18px;flex:none;display:grid;place-items:center}
-  .divider .dot svg{width:18px;height:18px;display:block}
   .law{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:8px 26px 14px}
   .part{padding:15px 0;border-bottom:1px dashed var(--line)}
   .part:last-child{border-bottom:none}
@@ -190,6 +188,10 @@
   @media(max-width:640px){.lang-sel{font-size:13px;padding:6px 8px}.uzscripts button{padding:6px 8px;font-size:12px}
     .brand-text span{display:none}.topbar-in{gap:10px}}
 
+  .edge{position:absolute;top:0;bottom:0;width:48px;z-index:0;pointer-events:none;opacity:.42;background-repeat:repeat-y;background-position:center top;background-size:48px 48px;display:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2756%27%20height%3D%2756%27%20viewBox%3D%270%200%2056%2056%27%3E%3Cpath%20d%3D%27M28.0%200.0%20L32.44%2017.28%20L47.8%208.2%20L38.72%2023.56%20L56.0%2028.0%20L38.72%2032.44%20L47.8%2047.8%20L32.44%2038.72%20L28.0%2056.0%20L23.56%2038.72%20L8.2%2047.8%20L17.28%2032.44%20L0.0%2028.0%20L17.28%2023.56%20L8.2%208.2%20L23.56%2017.28%20Z%27%20fill%3D%27none%27%20stroke%3D%27%23B5862A%27%20stroke-width%3D%271.3%27%20opacity%3D%270.85%27%2F%3E%3Cpath%20d%3D%27M28%2016.4%20L39.6%2028%20L28%2039.6%20L16.4%2028%20Z%27%20fill%3D%27none%27%20stroke%3D%27%23B5862A%27%20stroke-width%3D%270.8%27%20opacity%3D%270.55%27%2F%3E%3Cpath%20d%3D%27M28%20-5%20L33%200%20L28%205%20L23%200%20Z%27%20fill%3D%27none%27%20stroke%3D%27%23B5862A%27%20stroke-width%3D%271.1%27%20opacity%3D%270.8%27%2F%3E%3Ccircle%20cx%3D%2728%27%20cy%3D%2728%27%20r%3D%272.4%27%20fill%3D%27%230F8050%27%2F%3E%3C%2Fsvg%3E")}
+  .edge.left{left:4px}
+  .edge.right{right:4px}
+  @media(min-width:1330px){.edge{display:block}}
   /* ===== SAYT FOOTERI ===== */
   .site-foot{margin-top:56px;border-top:1px solid var(--line);background:var(--paper-2);
     background-image:radial-gradient(120% 100% at 50% 0%,color-mix(in srgb,var(--gold) 7%,transparent),transparent 60%)}
@@ -208,14 +210,8 @@
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="gul" viewBox="0 0 100 100">
-<defs><path id="pA" d="M50 50 C43 33 43 20 50 8 C57 20 57 33 50 50 Z"/><path id="pB" d="M50 50 C45.5 39 45.5 30 50 23 C54.5 30 54.5 39 50 50 Z"/></defs>
-<circle cx="50" cy="50" r="47" fill="none" stroke="#B68A2E" stroke-width="1.3" opacity=".55"/>
-<circle cx="50" cy="50" r="43" fill="none" stroke="#0F8050" stroke-width="1" opacity=".4"/>
-<g fill="#B68A2E"><use href="#pA"/><use href="#pA" transform="rotate(45 50 50)"/><use href="#pA" transform="rotate(90 50 50)"/><use href="#pA" transform="rotate(135 50 50)"/><use href="#pA" transform="rotate(180 50 50)"/><use href="#pA" transform="rotate(225 50 50)"/><use href="#pA" transform="rotate(270 50 50)"/><use href="#pA" transform="rotate(315 50 50)"/></g>
-<g fill="#0F8050"><use href="#pB" transform="rotate(22.5 50 50)"/><use href="#pB" transform="rotate(67.5 50 50)"/><use href="#pB" transform="rotate(112.5 50 50)"/><use href="#pB" transform="rotate(157.5 50 50)"/><use href="#pB" transform="rotate(202.5 50 50)"/><use href="#pB" transform="rotate(247.5 50 50)"/><use href="#pB" transform="rotate(292.5 50 50)"/><use href="#pB" transform="rotate(337.5 50 50)"/></g>
-<circle cx="50" cy="50" r="7.5" fill="#B68A2E"/><circle cx="50" cy="50" r="3.4" fill="#FBF7EC"/>
-</symbol><symbol id="mizan" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="13.5" r="3" fill="currentColor" stroke="none"/><line x1="50" y1="17" x2="50" y2="71"/><line x1="26" y1="29" x2="74" y2="29"/><circle cx="50" cy="29" r="2.6" fill="currentColor" stroke="none"/><path d="M26 29 L18 47 M26 29 L34 47"/><path d="M18 47 Q26 58 34 47"/><path d="M74 29 L66 47 M74 29 L82 47"/><path d="M66 47 Q74 58 82 47"/><line x1="39" y1="72" x2="61" y2="72"/><line x1="45" y1="78" x2="55" y2="78"/></g></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="mizan" viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="13.5" r="3" fill="currentColor" stroke="none"/><line x1="50" y1="17" x2="50" y2="71"/><line x1="26" y1="29" x2="74" y2="29"/><circle cx="50" cy="29" r="2.6" fill="currentColor" stroke="none"/><path d="M26 29 L18 47 M26 29 L34 47"/><path d="M18 47 Q26 58 34 47"/><path d="M74 29 L66 47 M74 29 L82 47"/><path d="M66 47 Q74 58 82 47"/><line x1="39" y1="72" x2="61" y2="72"/><line x1="45" y1="78" x2="55" y2="78"/></g></symbol></svg>
+<div class="edge left"></div><div class="edge right"></div>
 <header class="topbar">
   <div class="topbar-in">
     <div class="brand" id="brandHome">
@@ -439,13 +435,13 @@ function renderArticle(){
     }).join("")+`</div>`+(ruOK?`<div class="tr-note">Rasmiy ruscha matn — manba: lex.uz (Fuqarolik kodeksi, ${a.no}-modda).</div>`:(arOK?`<div class="tr-note">ترجمة غير رسمية للغرض التعليمي فقط؛ النص القانوني الرسمي باللغة الأوزبكية (المصدر: lex.uz).</div>`:(I18N.lang!=="uz"?`<div class="tr-note">Tarjima — tushunish uchun; rasmiy qonun matni oʻzbek tilida (lex.uz).</div>`:"")));
     }
     const comTxt=(I18N.lang!=="uz"&&a["commentary_"+I18N.lang])?a["commentary_"+I18N.lang]:a.commentary;
-    const com=a.commentary?`<div class="divider"><span class="lbl">Batafsil sharh</span><span class="dot"><svg width="18" height="18"><use href="#gul"/></svg></span><span class="ln"></span></div><div class="commentary">`+comTxt.split("\n\n").map(p=>`<p>${renderText(p)}</p>`).join("")+`</div>`:"";
+    const com=a.commentary?`<div class="divider"><span class="lbl">Batafsil sharh</span><span class="ln"></span></div><div class="commentary">`+comTxt.split("\n\n").map(p=>`<p>${renderText(p)}</p>`).join("")+`</div>`:"";
     const te=a.terms?Object.values(a.terms):[];
-    const gl=te.length?`<div class="divider"><span class="lbl">Atamalar</span><span class="dot"><svg width="18" height="18"><use href="#gul"/></svg></span><span class="ln"></span></div><div class="glossary">`+te.map(t=>`<div class="gloss-item"><b>${t.word}</b><p>${t.def}</p></div>`).join("")+`</div>`:"";
+    const gl=te.length?`<div class="divider"><span class="lbl">Atamalar</span><span class="ln"></span></div><div class="glossary">`+te.map(t=>`<div class="gloss-item"><b>${t.word}</b><p>${t.def}</p></div>`).join("")+`</div>`:"";
     const exTxt=(I18N.lang!=="uz"&&a["example_"+I18N.lang])?a["example_"+I18N.lang]:a.example;
-    const ex=a.example?`<div class="divider"><span class="lbl">Hayotiy misol</span><span class="dot"><svg width="18" height="18"><use href="#gul"/></svg></span><span class="ln"></span></div><div class="example"><div class="ex-tag">⚖︎ Amaliyotdan</div>`+exTxt.split("\n\n").map(p=>`<p>${renderText(p)}</p>`).join("")+`</div>`:"";
+    const ex=a.example?`<div class="divider"><span class="lbl">Hayotiy misol</span><span class="ln"></span></div><div class="example"><div class="ex-tag">⚖︎ Amaliyotdan</div>`+exTxt.split("\n\n").map(p=>`<p>${renderText(p)}</p>`).join("")+`</div>`:"";
     body=`<div class="art-head"><div class="kicker">${tCHT(ch)}</div><h1><span class="art-no">${tArtNo(a.no)}.</span> ${ruOK&&RD.title?RD.title:(ruBlk&&RB.title?RB.title:(arOK&&AD.title?AD.title:a.title))}</h1></div>${srcBar}
-      <div class="divider"><span class="lbl">Qonun matni</span><span class="dot"><svg width="18" height="18"><use href="#gul"/></svg></span><span class="ln"></span></div>${law}${com}${gl}${ex}`;
+      <div class="divider"><span class="lbl">Qonun matni</span><span class="ln"></span></div>${law}${com}${gl}${ex}`;
   }
   app.innerHTML=cr+`<div class="content fade-in">${body}${nav}</div>`;
   app.querySelectorAll(".term").forEach(el=>el.onclick=(e)=>{e.stopPropagation();showPop(el,a.terms[el.dataset.term]);});
