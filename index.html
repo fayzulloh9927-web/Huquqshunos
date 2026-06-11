@@ -163,6 +163,24 @@
   [dir=rtl] .art-nav{direction:rtl}
   @media(max-width:640px){.lang-sel{font-size:13px;padding:6px 8px}.uzscripts button{padding:6px 8px;font-size:12px}
     .brand-text span{display:none}.topbar-in{gap:10px}}
+
+  /* ===== SAYT FOOTERI ===== */
+  .site-foot{margin-top:56px;border-top:1px solid var(--line);background:var(--paper-2);
+    background-image:radial-gradient(120% 100% at 50% 0%,rgba(169,134,63,.06),transparent 60%);}
+  .site-foot .foot-in{max-width:var(--maxw);margin:0 auto;padding:40px 22px 8px;
+    display:grid;grid-template-columns:1.15fr 1fr;gap:26px 52px;}
+  .site-foot .foot-brand{font-size:21px;font-weight:700;color:var(--wine);letter-spacing:.3px;margin-bottom:11px;}
+  .site-foot h4{font-size:12.5px;text-transform:uppercase;letter-spacing:.13em;color:var(--gold);
+    margin-bottom:9px;font-weight:700;}
+  .site-foot .foot-about,.site-foot .foot-disc{font-size:13.5px;line-height:1.68;color:var(--ink-soft);}
+  .site-foot .foot-bottom{max-width:var(--maxw);margin:24px auto 0;padding:15px 22px 36px;
+    border-top:1px dashed var(--line);font-size:13px;color:var(--ink-soft);
+    display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;}
+  .site-foot .foot-bottom .cw{color:var(--ink);font-weight:600;}
+  .site-foot .foot-src{font-size:12.5px;color:var(--ink-soft);margin-top:9px;line-height:1.5;}
+  .site-foot .foot-src a{color:var(--wine-soft);text-decoration:none;border-bottom:1px solid var(--line);}
+  @media(max-width:720px){.site-foot .foot-in{grid-template-columns:1fr;padding:32px 18px 6px}}
+  html[dir="rtl"] .site-foot .foot-in,html[dir="rtl"] .site-foot .foot-bottom{text-align:right;}
 </style>
 </head>
 <body>
@@ -193,6 +211,7 @@
 <div class="t-badge noloc" id="tBadge"><span class="spin"></span><span id="tBadgeText">Tarjima qilinmoqda…</span></div>
 
 <main id="app"></main>
+<footer id="siteFooter" class="site-foot"></footer>
 <div class="pop noloc" id="pop"><div class="arrow"></div><b id="popWord"></b><p id="popDef"></p></div>
 
 <script>
@@ -623,6 +642,54 @@ function syncControls(){
   if(ls)ls.value=I18N.lang;
 }
 
+/* ===== SAYT MAʼLUMOTLARI / FOOTER ===== */
+/* ====== TAHRIRLANG: mualliflik egasi va aloqa ====== */
+const SITE={
+  owner:"Huquqshunos",          /* mualliflik egasi nomi (boʻsh qoldirmang) */
+  contact:"",                    /* ixtiyoriy: e-pochta yoki Telegram, mas. "@intizom" yoki "mail@example.com"; boʻsh boʻlsa koʻrsatilmaydi */
+  startYear:2026,                /* loyiha boshlangan yil */
+  aboutLabel:{uz:"Sayt haqida",ru:"О сайте",en:"About the site",tr:"Site hakkında",ar:"عن الموقع"},
+  srcLabel:{uz:"Manba va ogohlantirish",ru:"Источник и оговорка",en:"Source & disclaimer",tr:"Kaynak ve uyarı",ar:"المصدر وإخلاء المسؤولية"},
+  about:{
+   uz:"Oʻzbekiston qonunlarini qism-qismga ajratib, sodda sharh, atamalar izohi va hayotiy misollar bilan tushuntiruvchi taʼlimiy platforma. Mazmun besh tilda: oʻzbek (lotin, kirill, chigʻatoy), rus, ingliz, turk va arab tillarida.",
+   ru:"Образовательная платформа, которая разбирает законы Узбекистана по частям и поясняет их простым комментарием, толкованием терминов и жизненными примерами. Материалы доступны на пяти языках.",
+   en:"An educational platform that breaks down Uzbekistan's laws article by article and explains them with plain commentary, term definitions and real-life examples. Content is available in five languages.",
+   tr:"Özbekistan kanunlarını madde madde ayırıp sade açıklama, terim izahı ve hayattan örneklerle anlatan eğitim amaçlı bir platform. İçerik beş dilde sunulur.",
+   ar:"منصّةٌ تعليمية تُجزّئ قوانين أوزبكستان مادةً مادة، وتشرحها بتعليقٍ مبسَّط وإيضاحٍ للمصطلحات وأمثلةٍ من الواقع. والمحتوى متاحٌ بخمس لغات."
+  },
+  disc:{
+   uz:"Qonun matnlari rasmiy manbadan — lex.uz dan olingan (rasmiy tillar: oʻzbekcha va ruscha). Inglizcha hamda arabcha qonun tarjimalari, shuningdek barcha sharhlar va misollar norasmiy boʻlib, faqat taʼlim maqsadida tayyorlangan va yuridik maslahat oʻrnini bosmaydi. Aniq holatlar boʻyicha malakali mutaxassisga murojaat qiling.",
+   ru:"Тексты законов взяты из официального источника — lex.uz (официальные языки: узбекский и русский). Переводы законов на английский и арабский, а также все комментарии и примеры являются неофициальными, подготовлены только в образовательных целях и не заменяют юридическую консультацию.",
+   en:"Law texts are taken from the official source lex.uz (official languages: Uzbek and Russian). The English and Arabic translations of the law, as well as all commentary and examples, are unofficial, prepared for educational purposes only, and do not replace legal advice.",
+   tr:"Kanun metinleri resmî kaynak olan lex.uz'dan alınmıştır (resmî diller: Özbekçe ve Rusça). Kanunun İngilizce ve Arapça çevirileri ile tüm açıklamalar ve örnekler gayriresmîdir, yalnızca eğitim amaçlıdır ve hukuki danışmanlığın yerini tutmaz.",
+   ar:"نصوص القوانين مأخوذة من المصدر الرسمي lex.uz (اللغتان الرسميتان: الأوزبكية والروسية). أما الترجمتان الإنجليزية والعربية للقانون، وكذلك جميع الشروح والأمثلة، فهي غير رسمية، أُعِدَّت لغرض التعليم فقط، ولا تُغني عن الاستشارة القانونية.",
+  },
+  rights:{uz:"Barcha huquqlar himoyalangan.",ru:"Все права защищены.",en:"All rights reserved.",tr:"Tüm hakları saklıdır.",ar:"جميع الحقوق محفوظة."}
+};
+function renderFooter(){
+  const f=document.getElementById("siteFooter"); if(!f)return;
+  const L=I18N.lang, pick=o=>o[L]||o.uz;
+  const yr=new Date().getFullYear();
+  const years=(yr>SITE.startYear)?(SITE.startYear+"–"+yr):(""+SITE.startYear);
+  const contactHtml=SITE.contact?` <span class="dotsep"></span> <span class="noloc">${SITE.contact}</span>`:"";
+  f.innerHTML=`
+    <div class="foot-in">
+      <div class="foot-col">
+        <div class="foot-brand noloc">Huquqshunos</div>
+        <p class="foot-about">${pick(SITE.about)}</p>
+        <p class="foot-src">${pick(SITE.srcLabel)}: <a class="noloc" href="https://lex.uz" target="_blank" rel="noopener">lex.uz</a></p>
+      </div>
+      <div class="foot-col">
+        <h4>${pick(SITE.srcLabel)}</h4>
+        <p class="foot-disc">${pick(SITE.disc)}</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span class="noloc">© ${years} <span class="cw">${SITE.owner}</span>.</span>
+      <span>${pick(SITE.rights)}</span>${contactHtml}
+    </div>`;
+}
+
 /* ===== ROUTER ===== */
 function render(){
   if(S.view==="home")renderHome();
@@ -630,6 +697,7 @@ function render(){
   else if(S.view==="chapters")renderChapters();
   else if(S.view==="articles")renderArticles();
   else if(S.view==="article")renderArticle();
+  renderFooter();
   localize();
 }
 document.getElementById("brandHome").onclick=goHome;
