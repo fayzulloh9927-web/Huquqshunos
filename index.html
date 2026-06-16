@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23e7dabd'/%3E%3Cpath d='M16 5l2.6 6.6L25 14l-6.4 2.4L16 23l-2.6-6.6L7 14l6.4-2.4z' fill='%239a7327'/%3E%3C/svg%3E">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Porso Shamsiyev — raqamli arxiv","inLanguage":"uz","url":"https://porsoshamsiyev.uz/","about":{"@type":"Person","name":"Porso Shamsiyev","alternateName":"Porsoxon Shamsiddinxo‘jayev","birthDate":"1897","deathDate":"1973","jobTitle":"Matnshunos, navoiyshunos","description":"O‘zbek matnshunosligi asoschisi; Alisher Navoiy «Xamsa»sining ilmiy-tanqidiy matni muallifi."},"creator":{"@type":"Person","name":"Sotvoldiyev Fayzulla Sayfulla o‘g‘li"},"publisher":{"@type":"CollegeOrUniversity","name":"Imom Buxoriy nomidagi Toshkent islom instituti"}}</script>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Spectral:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Caveat:wght@500;600;700&family=Spectral:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#e7dabd; --bg2:#e1d3b2; --panel:#efe4c9; --paper:#f4ecd8; --panel-d:#e6d9bb;
@@ -23,16 +23,20 @@
   --lapis:#1f3b5e; --lapis-light:#2c507f;
   --rubric:#9e3a2c;
   --divider:rgba(122,94,34,.32); --divider-soft:rgba(122,94,34,.16);
-  --display:'Playfair Display',Georgia,serif; --body:'Spectral',Georgia,serif; --mono:'IBM Plex Mono',monospace; --nastaliq:'Noto Nastaliq Urdu',serif;
+  --display:'Caveat','Playfair Display',Georgia,serif; --display-clear:'Playfair Display',Georgia,serif; --body:'Times New Roman',Times,Georgia,serif; --mono:'IBM Plex Mono',monospace; --nastaliq:'Noto Nastaliq Urdu',serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:var(--body);background:var(--bg);color:var(--ink-soft);overflow-x:hidden;line-height:1.7;
+body{font-family:var(--body);background:var(--bg);color:var(--ink-soft);overflow-x:hidden;font-size:14px;line-height:1.65;
   background-image:radial-gradient(130% 80% at 50% -5%,rgba(255,250,236,.5),transparent 55%),radial-gradient(120% 120% at 50% 120%,rgba(120,90,30,.1),transparent 60%)}
 body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.45;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E")}
 a{color:inherit;text-decoration:none}
-p{line-height:1.75;color:var(--ink-soft);font-size:.92rem;margin-bottom:.7rem}
+p{line-height:1.7;color:var(--ink-soft);font-size:14px;margin-bottom:.7rem}
 strong{color:var(--ink);font-weight:600}
+/* shrift tartibi: kalligrafik (yozma) sarlavhalar; raqam/jadval/kichik nomlar aniq-tiniq */
+.num-item .n,.stat-num,.xulosa-num{font-family:var(--display-clear)}
+.compare-table td:first-child,.compare-table td,.work-card .wc-title,.avtograf .av-nom,.tl-title{font-family:var(--body)}
+.hero-title{font-weight:700}
 section{position:relative;z-index:1;padding:5rem 2rem;max-width:1100px;margin:0 auto}
 @media(max-width:768px){section{padding:3.2rem 1.25rem}}
 
@@ -311,6 +315,48 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(231,218,189,
 @keyframes bounce{0%,100%{transform:rotate(45deg) translateY(0)}50%{transform:rotate(45deg) translateY(4px)}}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition:none!important}.reveal{opacity:1;transform:none}.hero-arabic,.hero-eyebrow,.hero-title,.hero-subtitle,.hero-meta,.hero-ornament,.scroll-hint{opacity:1}}
+
+/* ===== QO‘LYOZMA → ILMIY MATN (tabdil) ===== */
+.ms-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:1.1rem;margin-top:1.3rem}
+.ms-card{background:var(--paper);border:1px solid var(--divider);border-radius:10px;padding:1.2rem 1.2rem 1.05rem;display:flex;flex-direction:column;gap:.45rem;transition:transform .2s,box-shadow .2s,border-color .2s}
+.ms-card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 18px 40px -28px rgba(60,44,20,.6)}
+.ms-card .ms-shelf{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--rubric);font-weight:600}
+.ms-card .ms-name{font-family:var(--display-clear);font-size:1.05rem;font-weight:700;color:var(--lapis);line-height:1.25}
+.ms-card .ms-meta{font-family:var(--mono);font-size:.62rem;color:var(--gold-dim);letter-spacing:.02em}
+.ms-card .ms-text{font-size:13px;color:var(--ink-soft);line-height:1.55;flex:1}
+.ms-card .ms-link{margin-top:.35rem;align-self:flex-start;font-family:var(--mono);font-size:.64rem;font-weight:500;color:var(--gold-dim);border:1px solid var(--divider);border-radius:20px;padding:.34rem .8rem;transition:all .2s}
+.ms-card .ms-link:hover{background:rgba(154,115,39,.12);border-color:var(--gold);color:var(--gold-dim)}
+
+/* tabdil pipeline */
+.pipe-rail{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.3rem 0 0;align-items:stretch}
+.pipe-step{flex:1 1 130px;min-width:120px;text-align:left;border:1px solid var(--divider);border-bottom:none;border-radius:8px 8px 0 0;background:transparent;color:var(--muted);cursor:pointer;padding:.7rem .8rem;transition:all .2s}
+.pipe-step .ps-n{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;color:var(--gold)}
+.pipe-step .ps-t{font-family:var(--body);font-weight:700;font-size:13px;color:var(--ink-soft);margin-top:.15rem}
+.pipe-step.active{background:var(--paper);border-color:var(--gold);box-shadow:0 -2px 0 var(--gold) inset}
+.pipe-step.active .ps-t{color:var(--gold-dim)}
+.pipe-panel{display:none;background:var(--paper);border:1px solid var(--gold);border-radius:0 8px 8px 8px;padding:clamp(1.1rem,3vw,1.8rem)}
+.pipe-panel.active{display:block;animation:fadeUp .4s ease}
+.pipe-stage{border:1px solid var(--divider);border-radius:10px;background:linear-gradient(180deg,#f6efdd,#f1e8d2);padding:clamp(1.1rem,3vw,1.9rem) clamp(1rem,4vw,2.2rem);position:relative;overflow:hidden}
+.pipe-stage .foxing{position:absolute;inset:0;pointer-events:none;background:radial-gradient(70px 44px at 14% 24%,rgba(140,100,40,.1),transparent 70%),radial-gradient(90px 56px at 86% 80%,rgba(120,80,30,.1),transparent 70%);mix-blend-mode:multiply}
+.pipe-stage .stg-tag{position:absolute;top:10px;right:14px;font-family:var(--mono);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dim)}
+.line-nastaliq{font-family:var(--nastaliq);direction:rtl;text-align:right;font-size:clamp(1.6rem,4.5vw,2.5rem);line-height:2.6;color:var(--ink);position:relative}
+.line-latin{font-family:var(--display-clear);font-size:clamp(1.25rem,3.2vw,1.85rem);line-height:1.7;color:var(--ink);font-weight:600}
+.line-cyr{font-family:var(--display-clear);font-size:clamp(1.2rem,3vw,1.7rem);line-height:1.7;color:var(--lapis);font-weight:600}
+.line-final{font-family:var(--display-clear);font-size:clamp(1.25rem,3.2vw,1.85rem);line-height:1.75;color:var(--ink);font-weight:700}
+.pipe-note{margin-top:1.1rem;display:flex;gap:.7rem;align-items:flex-start;border-left:2px solid var(--gold);padding:.2rem 0 .2rem .9rem}
+.pipe-note .pn-ic{color:var(--gold);font-size:1rem;line-height:1.4;flex:0 0 auto}
+.pipe-note p{font-size:13px;margin:0;color:var(--ink-soft)}
+.glyph-map{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.glyph{border:1px solid var(--divider);border-radius:8px;background:var(--bg);padding:.55rem .65rem;text-align:center;min-width:64px}
+.glyph .g-ar{font-family:var(--nastaliq);font-size:1.5rem;color:var(--gold-dim);line-height:1.4}
+.glyph .g-lt{font-family:var(--mono);font-size:.72rem;color:var(--ink);margin-top:.2rem}
+.glyph .g-nt{font-family:var(--mono);font-size:.54rem;color:var(--muted);margin-top:.12rem;letter-spacing:.02em}
+.pipe-app{margin-top:1rem;border:1px solid var(--divider);border-radius:8px;background:var(--bg)}
+.pipe-app .hd{font-family:var(--mono);font-size:.56rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:9px 16px;border-bottom:1px solid var(--divider)}
+.pipe-app .bd{padding:13px 18px;font-family:var(--mono);font-size:.74rem;color:var(--muted);line-height:1.95}
+.pipe-app .lemma{color:var(--ink);font-weight:600}
+.pipe-app .sg{color:var(--rubric)}
+@media(max-width:560px){.pipe-rail{flex-direction:column;gap:.35rem}.pipe-step{border-bottom:1px solid var(--divider);border-radius:8px}.pipe-step.active{box-shadow:none}}
 </style>
 </head>
 <body>
@@ -321,7 +367,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(231,218,189,
 </nav>
 <main id="app"></main>
 <footer class="site-footer">
-  <p>Bitiruv malakaviy ishi · <span id="ftAuthor"></span></p>
+  <p>Bitiruv diplom ishi · <span id="ftAuthor"></span></p>
   <p style="margin-top:.5rem">Imom Buxoriy nomidagi Toshkent islom instituti · «Tillar» kafedrasi · <span>2026</span></p>
 </footer>
 
@@ -1023,17 +1069,49 @@ function renderAnnotatsiya(){
     ${renderKolofon()}</section>`;}
 
 function renderKolofon(){const m=DATA.meta;
-  const cite=`Sotvoldiyev, F. S. (${esc(m.yil)}). <span class="it">Porso Shamsiyev — matnshunoslik ilmiga qo‘shgan hissasi: raqamli arxiv</span> [Bitiruv malakaviy ishi asosida]. ${esc(m.muassasa)}, ${esc(m.kafedra)}, ${esc(m.shahar)}. https://porsoshamsiyev.uz/`;
+  const cite=`Sotvoldiyev, F. S. (${esc(m.yil)}). <span class="it">Porso Shamsiyev — matnshunoslik ilmiga qo‘shgan hissasi: raqamli arxiv</span> [Bitiruv diplom ishi asosida]. ${esc(m.muassasa)}, ${esc(m.kafedra)}, ${esc(m.shahar)}. https://porsoshamsiyev.uz/`;
   const rows=[['Muallif',m.muallif],['Ilmiy rahbar',m.ilmiy_rahbar],['Taqrizchi',m.taqrizchi],['Muassasa',m.muassasa],['Yil · shahar',m.yil+' · '+m.shahar],['Versiya',m.baza_versiyasi]];
   return `<hr class="gold-rule"><div class="reveal"><h3 class="sub-title">Iqtibos keltirish va kolofon</h3>
     <div class="cite-box"><button class="copy" id="copyCite">Nusxa olish</button><div class="hd">Tavsiya etilgan iqtibos</div><div class="ref" id="citeRef">${cite}</div></div>
     <div class="kolofon">${rows.map(r=>`<div class="row"><div class="k">${esc(r[0])}</div><div class="v">${esc(r[1])}</div></div>`).join('')}</div></div>`;}
 
 /* mount */
-$('#app').innerHTML=renderHero()+renderKirish()+'<hr class="gold-rule">'+renderTarix()+renderHayoti()+renderMerosi()+renderManhaj()+renderQiyosiy()+renderHissasi()+renderYangilik()+renderArxiv()+renderLugat()+renderManbalar()+renderAnnotatsiya();
+function renderTabdil(){
+  const ms=[
+    {shelf:'Bodleian · MS. Elliott 287',name:'«Xamsa», I jild — Hayrat ul-abror',meta:'Hirot, 1485 · Badiuzzamon uchun',text:'Navoiy «Xamsa»sining 1485-yilda Hirotda ko‘chirilgan beshtomlik nusxasi. Muzahhab shamsa, Behzod maktabi miniatyuralari bilan — Oksford Bodleian kutubxonasi xazinasi.',url:'https://digital.bodleian.ox.ac.uk/collections/turkish/'},
+    {shelf:'Bodleian · Elliott 317 · 339 · 408',name:'«Xamsa»ning qolgan jildlari',meta:'Hirot, 1485',text:'O‘sha to‘plamning boshqa dostonlari; V jild (Saddi Iskandariy) — Elliott 339. Beshinchi asl jild Manchester Jon Raylends kutubxonasida saqlanadi.',url:'https://digital.bodleian.ox.ac.uk/collections/turkish/'},
+    {shelf:'Bodleian · Elliott 318 · 340',name:'«Xamsa» — Buxoro nusxasi',meta:'Buxoro, 1553',text:'Aynan shu asarning Buxoroda ko‘chirilgan ikki jildi. Bir asarning turli makon va davrdagi nusxalari matnshunos uchun qiyoslanadigan «guvoh»lardir.',url:'https://digital.bodleian.ox.ac.uk/collections/turkish/'},
+    {shelf:'Beruniy nomidagi Sharqshunoslik in-ti',name:'Toshkent qo‘lyozma fondlari',meta:'O‘zbekiston · Toshkent',text:'Navoiy qo‘lyozmalarining dunyodagi eng yirik to‘plamlaridan biri. Porso Shamsiyev «Xamsa»ning ilmiy-tanqidiy matnini tuzishda aynan mana shunday fondlardagi nusxalarga tayangan.',url:''}
+  ];
+  const cards=ms.map(m=>`<div class="ms-card reveal"><div class="ms-shelf">${esc(m.shelf)}</div><div class="ms-name">${esc(m.name)}</div><div class="ms-meta">${esc(m.meta)}</div><div class="ms-text">${esc(m.text)}</div>${m.url?`<a class="ms-link" href="${m.url}" target="_blank" rel="noopener">Raqamli nusxani ko‘rish ↗</a>`:''}</div>`).join('');
+
+  const rail=[['1-bosqich','Qo‘lyozma'],['2-bosqich','O‘qish'],['3-bosqich','Lotin tabdili'],['4-bosqich','Kirill tabdili'],['5-bosqich','Ilmiy-tanqidiy matn']]
+    .map((s,i)=>`<button class="tab-btn pipe-step${i===0?' active':''}" data-tab="tb${i+1}"><div class="ps-n">${s[0]}</div><div class="ps-t">${esc(s[1])}</div></button>`).join('');
+
+  const p1=`<div class="tab-content pipe-panel active" id="tb1"><div class="pipe-stage"><div class="foxing"></div><span class="stg-tag">nasta’liq xat</span><div class="line-nastaliq">کونگل ملکینی آباد ایتّی اول شاه<br>عدالت برله بنیاد ایتّی اول شاه</div></div><div class="pipe-note"><span class="pn-ic">◆</span><p>Matnshunos ishi qo‘lyozma <strong>varag‘i</strong>dan boshlanadi. Arab yozuvida qisqa unlilar yozilmaydi, ko‘p harflar shaklan o‘xshash (ب · ن · ت · پ · ث) va faqat nuqta bilan farqlanadi. Avval xat <strong> duxti</strong> (ko‘chiruvchi qo‘li), siyoh, nuqta va belgilarni aniqlash — matnni «o‘qib olish» bosqichi.</p></div></div>`;
+
+  const glyphs=[['و','oʻ / u / v','unli yoki «v»'],['ی','i / iy / y','unli yoki «y»'],['ک','k / g','kontekstga ko‘ra'],['ه','h / a','oxirda — «a» yoki tovushsiz'],['ا','a / o','boshda — alif']]
+    .map(g=>`<div class="glyph"><div class="g-ar">${g[0]}</div><div class="g-lt">${g[1]}</div><div class="g-nt">${g[2]}</div></div>`).join('');
+  const p2=`<div class="tab-content pipe-panel" id="tb2"><div class="pipe-stage"><div class="foxing"></div><span class="stg-tag">harf → tovush</span><div class="line-latin" style="opacity:.85">k-w-n-g-l · m-l-k-y-n-y · ’-b-’-d …</div></div><div class="glyph-map">${glyphs}</div><div class="pipe-note"><span class="pn-ic">◆</span><p>Bir grafema bir necha tovushni bera oladi. To‘g‘ri o‘qish uchun matnshunos <strong>aruz vazni</strong>, qofiya va ma’noga tayanadi: masalan, و bu yerda «obod», «bunyod», «ko‘ngul» so‘zlarida turlicha — <strong>o‘</strong>, <strong>u</strong> yoki <strong>v</strong> bo‘lib o‘qiladi. Qaror o‘zboshimcha emas, dalillangan bo‘lishi shart.</p></div></div>`;
+
+  const p3=`<div class="tab-content pipe-panel" id="tb3"><div class="pipe-stage"><div class="foxing"></div><span class="stg-tag">lotin tabdili</span><div class="line-latin">Ko‘ngul mulkini obod etti ul shoh,<br>Adolat birla bunyod etti ul shoh.</div></div><div class="pipe-note"><span class="pn-ic">◆</span><p><strong>Tabdil</strong> — yozuvni mexanik almashtirish emas, tovush tizimini zamonaviy imloga ko‘chirish. Bu yerda و → <strong>oʻ</strong> («ko‘ngul», «obod»), oxirgi ه → tovushsiz, izofa va birikmalar bugungi orfografiyaga moslanadi. Asl shakl esa apparatda saqlanadi.</p></div></div>`;
+
+  const p4=`<div class="tab-content pipe-panel" id="tb4"><div class="pipe-stage"><div class="foxing"></div><span class="stg-tag">kirill tabdili</span><div class="line-cyr">Кўнгул мулкини обод этти ул шоҳ,<br>Адолат бирла бунёд этти ул шоҳ.</div></div><div class="pipe-note"><span class="pn-ic">◆</span><p>Shamsiyev «Xamsa» dostonlarining ilmiy-tanqidiy matnlarini <strong>kirill</strong> imlosida nashr etgan. Tabdilning bosh tamoyili — <strong>fonologiyani saqlash</strong>: harf emas, tovush ko‘chiriladi. Shu sababli bir matn lotin va kirillda ham bir xil talaffuzni aks ettiradi.</p></div></div>`;
+
+  const p5=`<div class="tab-content pipe-panel" id="tb5"><div class="pipe-stage"><div class="foxing"></div><span class="stg-tag">tiklangan tanqidiy matn</span><div class="line-final">Ko‘ngul mulkini obod<sup style="color:var(--rubric);font-size:.55em">¹</sup> etti ul shoh,<br>Adolat birla bunyod<sup style="color:var(--rubric);font-size:.55em">²</sup> etti ul shoh.</div></div><div class="pipe-app"><div class="hd">Apparatus criticus</div><div class="bd"><span class="lemma">¹ obod]</span> ma’mur <span class="sg">B V</span> · om. <span class="sg">D</span> &nbsp;&nbsp; <span class="lemma">² bunyod]</span> payvand <span class="sg">E</span></div></div><div class="pipe-note"><span class="pn-ic">◆</span><p>Yakuniy bosqich — <strong>tayanch nusxa</strong>ga asoslanib, guvohlardagi tafovutlarni qiyoslab tiklangan matn. Har bir farq apparatda qayd etiladi: shu tariqa o‘qish <strong>dalillangan, qaytariladigan va tekshiriladigan</strong> bo‘ladi — Shamsiyev «matnga omonat» deb atagan mezon.</p></div></div>`;
+
+  const note=`<p class="note-sm reveal">* Yuqoridagi nasta’liq satr — usulni ko‘rsatish uchun qayta terilgan <strong>namunaviy</strong> ko‘rinish; asl, raqamlangan varaqlarni «Haqiqiy qo‘lyozmalar» bo‘limidagi havolalar orqali ko‘rish mumkin. Bayt va variantlar ham metodni tushuntiruvchi misol sifatida keltirilgan.</p>`;
+
+  return `<section id="tabdil">${head('Amaliyot','Qo‘lyozmadan ilmiy matngacha: tabdil jarayoni')}<p class="lead-p reveal">Matnshunos qo‘lyozmani qanday o‘qiydi, arab yozuvidan lotin va kirillga qanday <em>tabdil</em> qiladi va ilmiy-tanqidiy matnni qanday tiklaydi? Quyida — Alisher Navoiy «Xamsa»sining haqiqiy qo‘lyozmalari va shu asosdagi amaliy, bosqichma-bosqich namuna.</p>
+  <div class="reveal"><h3 class="sub-title">Haqiqiy qo‘lyozmalar</h3><p style="font-size:14px">Navoiy «Xamsa»sining dunyo kutubxonalarida saqlanayotgan asl nusxalari — matnshunos uchun birlamchi guvohlar:</p><div class="ms-grid">${cards}</div></div>
+  <hr class="gold-rule">
+  <div class="reveal"><h3 class="sub-title">Tabdil va tiklash — besh bosqichda</h3><p style="font-size:14px">Pastdagi bosqichlarni bosing — bitta satrning qo‘lyozmadan ilmiy-tanqidiy matngacha bo‘lgan yo‘lini kuzating.</p>
+  <div class="pipe-rail">${rail}</div>${p1}${p2}${p3}${p4}${p5}${note}</div></section>`;
+}
+$('#app').innerHTML=renderHero()+renderKirish()+'<hr class="gold-rule">'+renderTarix()+renderHayoti()+renderMerosi()+renderManhaj()+'<hr class="gold-rule">'+renderTabdil()+renderQiyosiy()+renderHissasi()+renderYangilik()+renderArxiv()+renderLugat()+renderManbalar()+renderAnnotatsiya();
 $('#ftAuthor').textContent=DATA.meta.muallif;
 /* nav links */
-(function(){const items=[['kirish','Kirish'],['tarix','Tarix'],['hayot','Hayot'],['meros','Meros'],['manhaj','Manhaj'],['qiyos','Qiyos'],['hissa','Hissa'],['yangilik','Yangilik'],['arxiv','Arxiv'],['lugat','Lug‘at'],['kutubxona','Kutubxona']];
+(function(){const items=[['kirish','Kirish'],['tarix','Tarix'],['hayot','Hayot'],['meros','Meros'],['manhaj','Manhaj'],['tabdil','Tabdil'],['qiyos','Qiyos'],['hissa','Hissa'],['yangilik','Yangilik'],['arxiv','Arxiv'],['lugat','Lug‘at'],['kutubxona','Kutubxona']];
   $('#navLinks').innerHTML=items.map(i=>`<li><a href="#${i[0]}">${i[1]}</a></li>`).join('');})();
 
 /* interactions */
