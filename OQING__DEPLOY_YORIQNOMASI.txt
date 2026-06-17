@@ -1,0 +1,18 @@
+SAYTNI JOYLASH (DEPLOY) — MUHIM
+================================
+Serverga QUYIDAGILARNI BIRGA yuklang (faqat index.html emas!):
+
+  index.html                  <- bosh fayl (ildizda tursin)
+  manbalar/                   <- BUTUN PAPKA (ichidagi barcha PDF bilan)
+  og_image.png                <- ulashuv kartasi rasmi
+  porso_shamsiyev_data.json   <- (ixtiyoriy, zaxira)
+
+AGAR faqat index.html yuklasangiz -> kutubxonadagi asarlar "404" beradi,
+ochilmaydi. Sababi: asar PDF'lari "manbalar/" papkasida turadi.
+
+Tekshirish: deploydan keyin brauzerda quyidagini oching —
+  https://SIZNING-DOMEN/manbalar/shamsiyev_xamsa_prinsiplari.pdf
+PDF ochilsa -> hammasi joyida. "404" chiqsa -> papka yuklanmagan.
+
+SHRIFT: kalligrafik shrift (Caveat) endi sayt ichiga joylangan,
+internetdan yuklab olishga bog'liq emas. Asosiy matn — Times New Roman.

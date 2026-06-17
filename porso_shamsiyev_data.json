@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "loyiha_nomi": "Porso Shamsiyev — matnshunoslik ilmiga qo'shgan hissasi",
+    "loyiha_turi": "Ilmiy arxiv va axborot sayti (BDI asosida)",
+    "muallif": "Sotvoldiyev Fayzulla Sayfulla o'g'li",
+    "muassasa": "Oʻzbekiston musulmonlari idorasi — Imom Buxoriy nomidagi Toshkent islom instituti",
+    "kafedra": "\"Tillar\" kafedrasi",
+    "ilmiy_rahbar": "Abdullayev Alisher Abdupattoyevich, \"Tillar\" kafedrasi katta o'qituvchisi",
+    "taqrizchi": "Asrorov Kozimxon Olimxon o'g'li, \"Tillar\" kafedrasi katta o'qituvchisi",
+    "yil": "2026",
+    "shahar": "Toshkent",
+    "til": "o'zbek (lotin)",
+    "baza_versiyasi": "1.0 — 1-bosqich (kontent bazasi)"
+  },
+
+  "shaxs": {
+    "ism": "Porso Shamsiyev",
+    "toliq_ism": "Porsoxon Shamsiddinxo'jayev",
+    "kasb": "Matnshunos olim, navoiyshunos, lug'atshunos, muharrir",
+    "tavallud_sana": "1897-yil 10-fevral",
+    "tavallud_joy": "Buxoro, Xoja Porso mahallasi",
+    "vafot_sana": "1973-yil",
+    "vafot_izoh": "Ayrim qayta nashrlarda \"1897–1972\" ko'rsatilgan; Gʻ.Shodmonov tadqiqotida olim 1973-yilgacha Til va adabiyot institutida ishlagani qayd etiladi. Ushbu ishda 1973-yil asos qilib olingan.",
+    "unvon": "Oʻzbekiston SSRda xizmat ko'rsatgan fan arbobi (1967)",
+    "ilmiy_daraja": "Filologiya fanlari doktori (1970)",
+    "epitet": "\"Matnshunoslik piri\" (Ibrohim Haqqul ta'rifi)",
+    "qisqa_tavsif": "Porso Shamsiyev — XX asr o'zbek matnshunosligining markaziy siymolaridan biri. U Buxoro madrasa muhitida shakllangan, eski yozuv, arab va fors-tojik tillarini mukammal bilgan; Alisher Navoiy \"Xamsa\"si dostonlarining ilmiy-tanqidiy matnlarini, \"Boburnoma\"ni, \"Navoiy asarlari lug'ati\"ni va Navoiy 15 tomligining to'qqiz tomini nashrga tayyorlagan. Uning eng katta xizmati — mumtoz matn bilan ishlashning izchil, dalillangan, tekshiriladigan ilmiy manhajini yaratgani va matnga \"omonat\" sifatida qarash mezonini o'rnatganidir.",
+    "asosiy_faktlar": [
+      { "yorliq": "Faoliyat davri", "qiymat": "~50 yil" },
+      { "yorliq": "Nashr hajmi", "qiymat": "1000+ bosma bet uning ishtiroki yoki tahriri ostida" },
+      { "yorliq": "Navoiy 15 tomligi", "qiymat": "9 tom (6,7,8,9,10,11,13,14,15)" },
+      { "yorliq": "\"Xamsa\" ITM dostonlari", "qiymat": "Sab'ai sayyor, Farhod va Shirin, Hayrat ul-abror" },
+      { "yorliq": "Lug'at", "qiymat": "\"Navoiy asarlari lug'ati\" — 12 500 bosh so'z, 8 000+ ibora" }
+    ]
+  },
+
+  "navigatsiya": [
+    { "id": "bosh", "nom": "Bosh sahifa", "tartib": 1 },
+    { "id": "tadqiqot", "nom": "Tadqiqot haqida", "tartib": 2 },
+    { "id": "matnshunoslik-tarixi", "nom": "Matnshunoslik tarixi", "tartib": 3 },
+    { "id": "hayoti", "nom": "Hayoti va ilmiy yo'li", "tartib": 4 },
+    { "id": "merosi", "nom": "Ilmiy merosi", "tartib": 5 },
+    { "id": "manhaj", "nom": "Matnshunoslik manhaji", "tartib": 6 },
+    { "id": "qiyosiy", "nom": "Qiyosiy tahlil", "tartib": 7 },
+    { "id": "hissasi", "nom": "Matnshunoslikka qo'shgan hissasi", "tartib": 8, "markaziy": true },
+    { "id": "yangilik", "nom": "Ilmiy yangilik", "tartib": 9 },
+    { "id": "arxiv", "nom": "Arxiv", "tartib": 10 },
+    { "id": "lugat", "nom": "Atama lug'ati", "tartib": 11 },
+    { "id": "manbalar", "nom": "Manba va adabiyotlar", "tartib": 12 }
+  ],
+
+  "oynalar": {
+    "tadqiqot": {
+      "sarlavha": "Tadqiqot haqida",
+      "qism_belgisi": "KIRISH",
+      "kirish_matni": "Oʻzbek mumtoz yozma merosini ilmiy asosda o'rganish, qo'lyozma manbalarni aniqlash, ularni saqlash va ishonchli matn holida nashrga tayyorlash bugungi filologiya ilmining eng muhim vazifalaridan biridir. Mumtoz asarni to'g'ri talqin qilish, avvalo, uning ishonchli matniga tayanishni talab etadi: matn xato o'qilsa, undan chiqariladigan adabiy, tarixiy va ilmiy xulosa ham zaiflashadi. Shu jihatdan matnshunoslik faqat nashr amaliyoti emas, balki milliy merosni ilmiy omonatdorlik bilan keyingi avlodga yetkazish xizmatidir.",
+      "bloklar": [
+        {
+          "sarlavha": "Mavzuning dolzarbligi",
+          "matn": "Porso Shamsiyev merosini o'rganish o'zbek matnshunosligi tarixida alohida ahamiyat kasb etadi, chunki u mumtoz matn bilan ishlash madaniyatini amaliy jihatdan yuksak bosqichga olib chiqqan olimlardan biridir. Uning Navoiy \"Xamsa\"si dostonlari, \"Boburnoma\", \"Navoiy asarlari lug'ati\" va boshqa ko'plab ilmiy nashrlar bilan bog'liq faoliyati o'zbek matnshunosligining shakllanishida muhim o'rin tutadi. Olim merosiga murojaat qilish quruq tarixiy qiziqish emas, balki bugungi matnshunoslik amaliyotining bevosita ehtiyojidir.",
+          "qoshimcha": "Davlat siyosati darajasida: \"Madaniy meros obyektlarini muhofaza qilish\" qonuni (2001), PQ-2995 (2017), PQ-3080 (2017), PF-5416 (2018), PQ-126 (2022) — qo'lyozma merosni saqlash va tadqiq etishni izchil yo'nalishga aylantirgan hujjatlar."
+        },
+        {
+          "sarlavha": "Tadqiqot maqsadi",
+          "matn": "Porso Shamsiyevning o'zbek matnshunosligi rivojiga qo'shgan hissasini, uning ilmiy merosi va ilmiy-tanqidiy matn yaratishdagi uslubiy tamoyillarini tadqiq etish. Maqsad doirasida olimning qo'lyozma manbalar bilan ishlash tajribasi, Navoiy va Bobur asarlari nashridagi xizmati hamda metodi boshqa matnshunoslar tajribasi bilan qiyosiy tahlil qilinadi."
+        },
+        {
+          "sarlavha": "Tadqiqot vazifalari",
+          "royxat": [
+            "o'zbek matnshunosligining shakllanish jarayoni va Sharq tahqiq an'analari bilan bog'liq ilmiy ildizlarini yoritish;",
+            "Porso Shamsiyevning hayoti, ilmiy faoliyati va adabiy-ilmiy merosini tavsiflash;",
+            "ilmiy-tanqidiy matn yaratishning asosiy tamoyillarini izohlash;",
+            "Shamsiyev metodini boshqa o'zbek matnshunoslari uslubiyati bilan qiyoslash."
+          ]
+        },
+        {
+          "sarlavha": "Tadqiqot obyekti",
+          "matn": "Porso Shamsiyevning ilmiy faoliyati, matnshunoslikka oid merosi hamda Navoiy va Bobur asarlari ustidagi ilmiy-nashriy ishlari."
+        },
+        {
+          "sarlavha": "Tadqiqot predmeti",
+          "matn": "Olimning ilmiy-tanqidiy matn yaratishdagi usuli, qo'lyozma nusxalarni tanlash va qiyoslash mezonlari, matniy farqlarni baholashdagi yondashuvi hamda metodini boshqa matnshunoslar tajribasi bilan qiyosiy o'rganish."
+        },
+        {
+          "sarlavha": "O'rganilganlik darajasi",
+          "matn": "Mavjud adabiyotlarni besh guruhga ajratish mumkin:",
+          "royxat": [
+            "Birlamchi manbalar — olimning o'z asarlari va \"O'zbek matnshunosligiga oid tadqiqotlar\" to'plami;",
+            "Maxsus tadqiqotlar — Gʻ.N.Shodmonovning magistrlik va PhD dissertatsiyalari;",
+            "Umumnazariy ishlar — Sh.Sirojiddinov, S.Umarova, F.D.Sapayeva asarlari;",
+            "Anjuman materiallari — 125 yillik respublika ilmiy anjumani (2022): I.Haqqul, H.Boltaboyev, O.Jo'raboyev, S.Rafiddinov, Z.Rahmonova;",
+            "Xotira yozmalari — Suyima G'aniyeva, T.G'afurjonova."
+          ],
+          "xulosa": "Mavjud ishlarning aksariyatida olimning ayrim xizmatlari yoki navoiyshunoslikdagi o'rni yoritilgan. Biroq uning metodini Sharq tahqiq an'analari (tahqiq, tas'hih, muqobala) bilan bog'liq holda, yaxlit tadqiqot sifatida o'rganish hali amalga oshmagan. Ushbu ish ana shu bo'shliqni to'ldiradi."
+        },
+        {
+          "sarlavha": "Tarkibiy tuzilishi",
+          "matn": "Bitiruv diplom ishi kirish, ikki bob, to'rt band, xulosa, foydalanilgan manba va adabiyotlar ro'yxati hamda atama va iboralar izohidan iborat."
+        }
+      ]
+    },
+
+    "matnshunoslik-tarixi": {
+      "sarlavha": "O'zbek matnshunosligi tarixi va Sharq tahqiq an'analari",
+      "qism_belgisi": "I BOB · 1.1-band",
+      "kirish_matni": "O'zbek matnshunosligini faqat XX asrda yuzaga kelgan filologik yo'nalish sifatida tushunish masalaning tub mohiyatini toraytiradi. Matnni asliga yaqinlashtirish, xatolarni tuzatish, nusxalarni solishtirish va asarni ishonchli holda yetkazish vazifalari Sharq ilmiy muhitida qadimdan mavjud bo'lgan: Qur'on kitobati, hadis rivoyati, fiqh matnlarini saqlash, tafsir, lug'at, devon va tazkira an'analari ichida.",
+      "bloklar": [
+        {
+          "sarlavha": "Uch ustun: tahqiq, tas'hih, muqobala",
+          "matn": "Sharq matnshunoslik tafakkurining bosh ustunlari uch atamada jamlanadi. Tahqiq — asarning turli nusxalari, tarixiy ma'lumotlar va dalillar asosida muallifga eng yaqin matnini tiklash. Tas'hih — matndagi xatolarni yozuv, ma'no, vazn va ilmiy dalil jihatidan to'g'rilash. Muqobala — bir nusxani boshqa nusxa yoki asl matn bilan solishtirib, tafovutlarni aniqlash va eng ishonchli o'qishni tanlash. Bugungi \"ilmiy-tanqidiy matn\" atamasining amaliy ildizlari aynan shu qadimiy ilmiy odoblar ichida yashaydi."
+        },
+        {
+          "sarlavha": "Shakllantiruvchi omillar",
+          "royxat": [
+            "Qur'on kitobati va musʼhaf nusxalash madaniyati — yozuv, imlo, qiroat, rasm ul-musʼhaf masalalarini erta ilmiy mavzuga aylantirdi;",
+            "Hadis ilmidagi sanad va matn tanqidi — roviylar zanjiri, ziyoda va nuqsonlar, ixtilof masalalari;",
+            "Fiqh, usul al-fiqh va kalom matnlarining nozik istilohiy tabiati — bir so'z o'zgarishi hukmni o'zgartirishi;",
+            "Movarounnahr madrasa muhiti — Moturidiy, Nasafiy, Margʻinoniy, Pazdaviy an'anasi;",
+            "Ko'p tillilik — arabcha ilmiy, forscha badiiy-tarixiy, turkiy adabiy matnlarning yonma-yon yashashi."
+          ]
+        },
+        {
+          "sarlavha": "Tarixiy bosqichlar",
+          "bosqichlar": [
+            { "nom": "Qadim turkiy yozma yodgorliklar", "izoh": "Bitiktoshlar, \"Qutadg'u bilig\", \"Devonu lug'otit turk\", \"Hibat ul-haqoyiq\", \"Qisasi Rabg'uziy\" — matnshunoslik ehtiyojini tug'dirgan asos." },
+            { "nom": "Temuriylar davri kitobati", "izoh": "Hirot, Samarqand, Buxoroda xattotlik, kutubxona, devon tartibi; Navoiy merosi o'zbek matnshunosligining eng katta sinov maydoniga aylandi." },
+            { "nom": "XVI–XIX asrlar an'anasi", "izoh": "Bayoz, devon, tazkira, lug'at va sharhlar — ilmiy-tanqidiy matn tuzishning o'ziga xos tayyorgarlik bosqichi." },
+            { "nom": "Toshbosma madaniyati", "izoh": "XIX asr oxiri – XX asr boshi: qo'lyozma bilan zamonaviy bosma nashr oralig'idagi guvoh." },
+            { "nom": "XX asr — burilish davri", "izoh": "Eski yozuvdan yangi yozuvga o'tish, filologik tadqiqotning institutlashuvi, Navoiy yubileyi (1938-dan) matnshunoslikni ilmiy soha darajasiga ko'tardi." }
+          ]
+        },
+        {
+          "sarlavha": "Navoiy yubileyi va metodologik maktab",
+          "matn": "1938-yildan Navoiy tavalludining 500-yilligiga tayyorgarlik qo'lyozmalarni izlash, tavsiflash, lug'at va izohlar tuzish, variantlarni solishtirish ishlarini kun tartibiga olib chiqdi. Bu siyosiy maqsad bilan yonma-yon ilmiy jihatdan muhim natija berdi: qo'lyozma meros bilan ishlash maktabi real shakllandi. Bu davrni baholashda siyosiy maqsad bilan ilmiy natijani farqlash tarixiy xolislikning sharti hisoblanadi."
+        }
+      ]
+    },
+
+    "hayoti": {
+      "sarlavha": "Hayoti va ilmiy yo'li",
+      "qism_belgisi": "I BOB · 1.2-band",
+      "kirish_matni": "Porso Shamsiyev shaxsiyatida XX asr o'zbek matnshunosligining muhim ichki jarayoni — eski kitobat va madrasa savodidan akademik matnshunoslikka o'tish bosqichi mujassam bo'ladi. Shu sababli uning hayotini o'rganish, aslida, o'zbek matnshunosligi shakllanishining ichki tarixini ochishdir. Quyida olim hayoti uch katta bosqich kesimida beriladi: maorif (10 yil), nashriyot (10 yil), akademiya (keyingi davr).",
+      "xronologiya": [
+        { "yil": "1897", "voqea": "Buxorodagi Xoja Porso mahallasida tavallud topdi.", "bosqich": "Shakllanish" },
+        { "yil": "1913–1919", "voqea": "Buxorodagi Eshoni Pir madrasasida tahsil oldi; arab, fors-tojik va eski o'zbek tillarini mukammal o'zlashtirdi.", "bosqich": "Shakllanish" },
+        { "yil": "1920", "voqea": "Buxoro inqilobi (sentyabr). Amirlik davrida devon ishlarida ishlagan; inqilobdan keyin Buxoro maorifini tashkil etishda faol bo'ldi.", "bosqich": "Maorif" },
+        { "yil": "1920–1921", "voqea": "Buxoro Markaziy Xalq bankida hisobchi yordamchisi, so'ng Qarshi viloyati banki daftardori va bosh hisobchisi.", "bosqich": "Maorif" },
+        { "yil": "1925", "voqea": "Toshkentga keldi; xalq maorifi tizimida ishladi, savodsizlikka qarshi ommaviy safarbarlikni uyushtirdi.", "bosqich": "Maorif" },
+        { "yil": "1932–1941", "voqea": "Darsliklar yaratdi: \"Adabiyotdan ish kitobi\" (1932), \"Adabiyot darsligi\" (1933), \"O'zbek tili darsligi\" (1938–1939) va b. — matn ustida ishlashning amaliy maktabi.", "bosqich": "Maorif" },
+        { "yil": "1938", "voqea": "Navoiy 500-yillik yubileyi tayyorgarligi boshlandi; Hamid Olimjon Shamsiyevni ilm dargohiga olib kirdi — ilmiy taqdiridagi burilish nuqtasi.", "bosqich": "Nashriyot" },
+        { "yil": "1945", "voqea": "Til va adabiyot institutiga o'tdi; nashriyot va ilmiy-tahririy faoliyati kuchaydi (Davlat nashriyoti, O'quv-pedagogika nashriyoti, FA nashriyoti muharriri).", "bosqich": "Nashriyot" },
+        { "yil": "1948", "voqea": "Urush tufayli kechikkan Navoiy yubileyi nishonlandi; Shamsiyev eng faol mehnat qilganlar safida. \"Boburnoma\"ning birinchi nashri.", "bosqich": "Akademiya" },
+        { "yil": "1952", "voqea": "\"Sab'ai sayyor\" ilmiy-tanqidiy matnini nomzodlik dissertatsiyasi sifatida himoya qildi (madrasa ta'limi sababli izn olishda qiyinchilikdan keyin).", "bosqich": "Akademiya" },
+        { "yil": "1953", "voqea": "\"O'zbek klassik adabiyoti asarlari uchun qisqacha lug'at\"ni yaratdi.", "bosqich": "Akademiya" },
+        { "yil": "1956", "voqea": "\"Sab'ai sayyor\" ilmiy-tanqidiy matnini alohida kitob holida nashr ettirdi.", "bosqich": "Akademiya" },
+        { "yil": "1958–1960", "voqea": "Navoiy \"Xamsa\"sining mukammal matnini bir kitob holida shakllantirib chop qildi — yangi anʼana boshlandi. Mashrab \"Tanlangan she'rlar\" (A.Hayitmetov bilan).", "bosqich": "Akademiya" },
+        { "yil": "1963", "voqea": "\"Farhod va Shirin\" ilmiy-tanqidiy matni nashr etildi.", "bosqich": "Akademiya" },
+        { "yil": "1967", "voqea": "70 yillik yubiley keng nishonlandi; \"O'zbekiston SSRda xizmat ko'rsatgan fan arbobi\" unvoni berildi.", "bosqich": "Akademiya" },
+        { "yil": "1970", "voqea": "\"Hayrat ul-abror\" ilmiy-tanqidiy matni nashr etildi; \"Alisher Navoiy 'Xamsa'sining ilmiy-tanqidiy matni va uni tayyorlash prinsiplari\" mavzusida doktorlik dissertatsiyasini himoya qildi.", "bosqich": "Akademiya" },
+        { "yil": "1972", "voqea": "S.Ibrohimov bilan \"Navoiy asarlari lug'ati\"ni yaratdi (12 500 bosh so'z, 8 000+ ibora).", "bosqich": "Akademiya" },
+        { "yil": "1973", "voqea": "Vafot etdi. \"Layli va Majnun\" hamda \"Saddi Iskandariy\" dostonlarining arab yozuvidagi ilmiy-tanqidiy matnlari nashr etilmay qoldi.", "bosqich": "Akademiya" }
+      ],
+      "bloklar": [
+        {
+          "sarlavha": "Buxoro — ilk poydevor",
+          "matn": "Buxoro asrlar davomida Qur'on, hadis, fiqh, kalom, mantiq, balog'at, aruz, fors-tojik va turkiy adabiyot hamda qo'lyozma madaniyati uzviy yashagan ilm o'chog'i edi. Olimning keyingi matnshunoslik mahoratidagi nozik jihatlar — eski yozuvni puxta o'qish, arabiy-forsiy tarkiblarni farqlash, mumtoz matnning lug'aviy qatlamini anglash — aynan shu muhitda shakllangan poydevorga borib taqaladi."
+        },
+        {
+          "sarlavha": "Madrasa savodi va akademik ilm",
+          "matn": "Shamsiyev FA Sharqshunoslik institutida Ibodilla Odilov, Abdufattoh Rasulov, Abdulqodir Murodov, Yunusjon Hakimjonov, Abdulla Nosirov kabi madrasa tahsiliga ega xodimlar qatorida faoliyat yuritgan. Bu dalil o'zbek matnshunosligining shakllanishida an'anaviy diniy ta'lim ko'rgan, eski yozuv malakasiga ega mutaxassislar hal qiluvchi o'rin tutganini tasdiqlaydi."
+        },
+        {
+          "sarlavha": "Ilmiy shaxsiyat fazilatlari",
+          "royxat": [
+            "So'zga hurmat va lug'atga ehtiyoj — o'zi biladigan so'zlarni ham lug'atdan tekshirib olar edi (Suyima G'aniyeva xotirasi);",
+            "Ilmiy halollik — \"Boburnoma\"ning birinchi nashridagi kamchiliklarni ochiq tan oldi;",
+            "Kamtarlik — nodir nusxalarni topgani holda buni oddiy olimlik burchi deb bilgan, shov-shuvni yoqtirmagan;",
+            "Hamkasb va shogird hissasini e'tirof etish — hech qachon boshqalarning mehnatini o'ziniki qilmagan;",
+            "Ilmiy muloqot madaniyati — Ye.E.Bertels, A.N.Kononov, S.N.Ivanov kabi sharqshunoslar bilan faol aloqa."
+          ]
+        }
+      ]
+    },
+
+    "merosi": {
+      "sarlavha": "Ilmiy merosi va asarlari",
+      "qism_belgisi": "I BOB · 1.2-band (meros)",
+      "kirish_matni": "Yarim asr mobaynida ming bosma betdan ortiq asar bevosita Porso Shamsiyev ishtiroki yoki tahriri ostida nashr etilgan. Ammo merosining haqiqiy qadrini bosma betlar soni bilan emas, matnga mas'uliyat bilan qarash, qo'lyozmani ilmiy ko'z bilan o'qish va mumtoz merosni ishonchli holda olib chiqish mezonini yaratgani bilan o'lchash kerak.",
+      "asarlar_guruhlari": [
+        {
+          "guruh": "Navoiy \"Xamsa\"si — ilmiy-tanqidiy matnlar",
+          "asarlar": [
+            { "nom": "Sab'ai sayyor", "yil": "1956", "izoh": "Ilmiy-tanqidiy matn, 464 b. 1952-yilda nomzodlik dissertatsiyasi sifatida himoya qilingan." },
+            { "nom": "Farhod va Shirin", "yil": "1963", "izoh": "Ilmiy-tanqidiy matn, 394 b." },
+            { "nom": "Hayrat ul-abror", "yil": "1970", "izoh": "Ilmiy-tanqidiy matn, 320 b. Uch doston uchun jami 21 yil mehnat sarflangan." },
+            { "nom": "\"Xamsa\" — bir kitobda", "yil": "1958–1960", "izoh": "Mukammal matn bir kitob holida; keyingi 15 tomlik nashr uchun ham asos bo'ldi." }
+          ]
+        },
+        {
+          "guruh": "Navoiy asarlarining 15 tomlik nashri",
+          "asarlar": [
+            { "nom": "9 tom nashrga tayyorlandi", "yil": "—", "izoh": "6, 7, 8, 9, 10, 11, 13, 14, 15-tomlar. Ular orasida \"Muhokamat ul-lug'atayn\", \"Mahbub ul-qulub\", \"Munshaot\", \"Vaqfiya\", \"Xamsat ul-mutahayyirin\", \"Nazm ul-javohir\", \"Arba'in\" va \"Xamsa\" tarkibidagi barcha dostonlar." }
+          ]
+        },
+        {
+          "guruh": "Boshqa nashrlar va tarjimalar",
+          "asarlar": [
+            { "nom": "Boburnoma — to'liq nashr", "yil": "—", "izoh": "S.Mirzayev bilan hammualliflikda." },
+            { "nom": "Muhokamat ul-lug'atayn, Mahbub ul-qulub, Majolis un-nafois, Saddi Iskandariy", "yil": "—", "izoh": "Navoiy asarlarining dastlabki nashrlari." },
+            { "nom": "Xondamir — \"Makorim ul-axloq\"", "yil": "—", "izoh": "O'zbek tiliga tarjima." },
+            { "nom": "Mashrab — \"Tanlangan she'rlar\"", "yil": "1958", "izoh": "A.Hayitmetov bilan; Mashrab ijodini o'rganishdagi dastlabki qadamlardan." },
+            { "nom": "G'afur G'ulom — 4 jildlik majmua", "yil": "—", "izoh": "Ko'p jihatdan Shamsiyev sa'y-harakati bilan yuqori saviyada tayyorlandi." },
+            { "nom": "\"O'zbek adabiyoti\" xrestomatiyasi (6 tom), \"O'zbek poeziyasi antologiyasi\" (5 jild)", "yil": "—", "izoh": "Faol qatnashgan." }
+          ]
+        },
+        {
+          "guruh": "Lug'atshunoslik",
+          "asarlar": [
+            { "nom": "O'zbek klassik adabiyoti asarlari uchun qisqacha lug'at", "yil": "1953", "izoh": "—" },
+            { "nom": "Navoiy asarlari lug'ati", "yil": "1972", "izoh": "S.Ibrohimov bilan. 12 500 ga yaqin bosh so'z, 8 000 dan ortiq ibora; XV asr o'zbek adabiy tilining normasini aks ettiradi." }
+          ]
+        }
+      ],
+      "kashfiyotlar": {
+        "sarlavha": "Qo'lyozma kashfiyotlari",
+        "royxat": [
+          "Qozon davlat universiteti fondidan \"Xamsa\"ning XVI asrga mansub muhim nusxasini topib, mufassal ilmiy tavsifini berdi;",
+          "Xuddi shu fonddan Navoiy \"Ilk devon\"ining 1568-yilda Mahmud kotib tomonidan Hirotda ko'chirilgan nusxasini aniqladi;",
+          "Bu nusxalarni H.Sulaymonov Leningradda topgan nusxalar bilan muqoyasa qilib, barcha farqlarni aniqladi;",
+          "Shaxsiy kutubxonadan \"Badoye' ul-bidoya\" devonining yangi nusxasini topib, ilmiy muomalaga kiritdi."
+        ]
+      }
+    },
+
+    "manhaj": {
+      "sarlavha": "Matnshunoslik manhaji — ilmiy-tanqidiy matn yaratish tamoyillari",
+      "qism_belgisi": "II BOB · 2.1-band",
+      "kirish_matni": "Matn tahqiqining vazifasi — qo'lyozma tarzda asrlar davomida ko'chirilgan asarning muallif yaratgan dastlabki holatini imkon qadar tiklash. Ilmiy-tanqidiy matn nusxalarni qiyosiy o'rganish asosida muallif matniga eng yaqin, ishonchli matnni belgilab, har bir tafovutni ilmiy apparatda izohlaydi. Shamsiyev manhajining o'ziga xosligi: u bir tomondan jahon tekstologiyasiga, ikkinchi tomondan mumtoz islomiy ilm an'anasidagi tahqiq, tas'hih va muqobalaga tayanadi.",
+      "farq_oddiy_nashrdan": "Ommabop nashr keng kitobxonga mo'ljallab, bitta ishonchli nusxa asosida soddalashtirib beriladi (o'qish uchun). Ilmiy-tanqidiy matnda esa barcha nusxalardagi farqlar ochiq ko'rsatilib, har bir tanlovning ilmiy asosi keltiriladi (tadqiq uchun).",
+      "tamoyillar": [
+        { "raqam": 1, "nom": "Asarga yaxlit yondashuv", "izoh": "\"Xamsa\"ning yaxlitligi muallif konsepsiyasi va besh dostonning ichki mantiqiy uzviyligidan kelib chiqadi; matn parcha-parcha emas, yagona butunlik sifatida o'rganiladi." },
+        { "raqam": 2, "nom": "Manbalarni to'liq to'plash", "izoh": "\"Xamsa\" uchun 6 qadimiy qo'lyozma va 3 toshbosma (Xiva 1880, Toshkent 1904 va 1905) jalb etildi. Nusxa qancha ko'p bo'lsa, muallif matnini tiklash imkoni shuncha kuchayadi." },
+        { "raqam": 3, "nom": "Tayanch (asos) nusxani ilmiy asosda tanlash", "izoh": "Abdujamil ko'chirgan nusxa (inv. 5018, \"A\") tayanch qilib olindi — shoir hayotligida ko'chirilgani, eng e'tiborli va eng to'lasi ekani uchun. Bertelsning \"muallif aytib turganda ko'chirilgan\" fikrini Shamsiyev kolofon sanalari asosida rad etdi." },
+        { "raqam": 4, "nom": "Har bir nusxaga mukammal tavsif berish", "izoh": "Xat turi (asosan nasta'liq), qog'ozi, formati, hajmi, kolofoni, ko'chirilgan sanasi, dostonlar tartibi va nuqsonlari bo'yicha batafsil tavsif — matnning fizik-tarixiy holatini hujjatlashtiradi." },
+        { "raqam": 5, "nom": "Muqobala — harf-baharf qiyoslash", "izoh": "Tayanch nusxaning har bir bayti qolgan besh qo'lyozma bilan birma-bir solishtirildi; ma'noga oid har bir tafovut matn ostidagi ilmiy apparatda qayd etildi. Bu — mumtoz muqobala usulining izchil zamonaviy shakli." },
+        { "raqam": 6, "nom": "Ilmiy apparat tuzish va farqlarni tasniflash", "izoh": "Asosiy matn tayanch nusxa asosida, farqli o'qilishlar shartli belgilar bilan. Farqlar 4 turga ajratiladi: ma'naviy (mazmunni o'zgartiruvchi), orfografik, kotib xatosi, tushib qolgan so'z/qator/bayt. Raqamlash: bob — rim, har 10 bayt — arab raqami, qatorlar \"a\"/\"b\"." },
+        { "raqam": 7, "nom": "Tas'hih — eng ishonchli variantni aniqlash", "izoh": "Farqlarni baholashda ikki mezon: (a) muallif matnidan shubhasiz farq qiluvchi o'rinlar; (b) tahririy o'zgarishlar. Tayanch nusxaga ham tanqidiy yondashiladi — zarurda boshqa nashrlarga murojaat qilinadi." },
+        { "raqam": 8, "nom": "Mantiqiy-mazmuniy tahlil", "izoh": "Tortishuvli o'rinlarda baytning mazmuni va shoir uslubi hal qiluvchi asos. Misol: \"Farhod va Shirin\"da A nusxadagi \"xo'y\" (ter) B nusxada \"xun\" (qon) — gap mehnat ter to'kish haqida bo'lgani uchun \"xo'y\" to'g'ri. \"Layli va Majnun\"da \"menga/senga\" — bayt Nizomiy va Xusrav Dehlaviyga ishora bo'lgani uchun \"menga\" to'g'ri." },
+        { "raqam": 9, "nom": "Lakunalarni tiklash", "izoh": "Tushib qolgan yoki o'qib bo'lmaydigan o'rin boshqa nusxalar asosida tiklanadi; tiklangan qism katta qavs ichiga olinadi — ilmiy halollik talabi (tiklangan matnni asl matndan ajratish)." },
+        { "raqam": 10, "nom": "Jahon tekstologiyasiga tayanish", "izoh": "Ozarbayjon olimlarining Nizomiy \"Xamsa\"si va Moskva sharqshunoslarining Firdavsiy \"Shohnoma\"si ustidagi tajribasi — milliy-mumtoz an'ana bilan jahon metodikasi uyg'unligi." }
+      ],
+      "olti_nusxa": [
+        { "belgi": "A", "tavsif": "Abdujamil ko'chirgan nusxa (inv. 5018) — tayanch nusxa, shoir hayotligida ko'chirilgan" },
+        { "belgi": "B", "tavsif": "Sulton Ali Mashhadiy ko'chirgan nusxa (inv. 560)" },
+        { "belgi": "V", "tavsif": "Qadimiy ko'chirma (inv. 7554)" },
+        { "belgi": "G", "tavsif": "Leningrad davlat ommaviy kutubxonasi nusxasi (55, LGPB)" },
+        { "belgi": "D", "tavsif": "Leningrad davlat ommaviy kutubxonasi nusxasi (559, LGPB)" },
+        { "belgi": "E", "tavsif": "Qozon nusxasi (inv. 15334)" }
+      ],
+      "institutsional_zamin": "Manhaj o'zbek matnshunosligining institutsional taraqqiyotidan ayri emas. 1938-yili Til va adabiyot instituti, so'ng Navoiyshunoslik bo'limi tashkil etildi; tekstologiya komissiyasiga G'afur G'ulom mas'ul bo'ldi. G'afur G'ulom 1940-yilda \"Farhod va Shirin\"da sinab ko'rgan ko'p nusxali tanqidiy nashr usuli Shamsiyev qo'lida izchil rivojlanib, butun \"Xamsa\"ga tatbiq etildi. Shamsiyev 1938-yilgi komissiyada bo'lmagan (1945-yili institutga o'tgan) — uning maktabga bog'liqligi shaxsiy a'zolik orqali emas, metodologik vorislik orqali namoyon bo'ladi."
+    },
+
+    "qiyosiy": {
+      "sarlavha": "Qiyosiy tahlil — boshqa matnshunoslar metodi bilan",
+      "qism_belgisi": "II BOB · 2.2-band",
+      "kirish_matni": "Qiyosning ilmiy qiymati shundaki, u Shamsiyevni yakka daho sifatida emas, balki muayyan ilmiy maktab ichidagi o'ziga xos ovoz sifatida ko'rsatadi. Asosiy e'tibor shaxslarga emas, metodga — qo'lyozma tanlash, tayanch nusxani belgilash, muqobala, ilmiy apparat va matnni asar tabiatiga ko'ra tiklash usullariga qaratiladi. Mutallibov, Karimov va Shamsiyev bir ilmiy maktab (Ye.E.Bertels rahbarligida shakllangan) vakillaridir.",
+      "umumiy_qolip": "A.Malikov maktabning umumiy ish tartibini to'rt bosqichda umumlashtiradi: (1) dunyo fondlaridagi qo'lyozmalar sanog'ini kataloglar asosida aniqlash; (2) eng qadimiysini o'rganib, yaroqli bo'lsa tayanch nusxa qilib tanlash; (3) qolgan nusxalarni yordamchi deb belgilab, tayanch bilan solishtirish va farqlarni apparatda qayd etish; (4) barcha nusxalar ishtirokida xatolarni bartaraf etish. Shamsiyev shu qolip doirasida ishlagan, biroq har bosqichga o'z talabchanligini singdirgan.",
+      "qiyoslar": [
+        { "olim": "S.M.Mutallibov", "asar": "Hayrat ul-abror", "tafovut": "Maktabning ilk tajribasi. Imkoniyat cheklangan — qadimiy nusxalar yetarli emas edi. Shamsiyev buni inkor etmaydi, dastlabki bosqich sifatida e'tirof etadi." },
+        { "olim": "G'.Q.Karimov", "asar": "Layli va Majnun", "tafovut": "Maktabning ilk tajribalaridan; ko'pincha keyingi asr qo'lyozmalari yoki bosma nusxalarga tayangan." },
+        { "olim": "A.N.Kononov", "asar": "Mahbub ul-qulub", "tafovut": "Aslida ilmiy-tanqidiy emas, yig'ma-qiyosiy matn. Kononov uchun matn — til hodisasi va tasnif obyekti; Shamsiyev uchun matn bayt, vazn, qofiya, mazmun va muallifning badiiy niyati bilan bog'liq yaxlit tuzilma." },
+        { "olim": "I.Sultonov", "asar": "Mezon ul-avzon", "tafovut": "Kuchli ichki mazmuniy tahlil, lekin qadimiy nusxalar yetishmagani uchun XVIII–XIX asr nusxalariga tayanishga majbur. Shamsiyev shu tahlilni qadimiy qo'lyozma dalili bilan birlashtiradi." },
+        { "olim": "H.Sulaymonov", "asar": "Xazoyin ul-maoniy / G'aroyib us-sig'ar", "tafovut": "Eng murakkab va ibratli qiyos — ikki olim bir-birining ishini tanqidiy baholagan. Mehnat taqsimoti: \"Xamsa\" dostonlari — Shamsiyev, lirik meros — Sulaymonov. Bu o'zaro tanqid raqobat emas, ilmiy bahs madaniyatining shakllanishi." },
+        { "olim": "S.G'aniyeva", "asar": "Majolis un-nafois", "tafovut": "Tazkira va nasriy meros tadqiqida kuchli yo'nalish (matn, tarjimayi hol, manbalararo aloqa). Shamsiyev esa yirik epik majmua — dostonlararo yaxlitlik va nusxa sifatini markazga qo'yadi. Bir maktab ichidagi ixtisoslashuv." },
+        { "olim": "A.Hayitmetov, Y.Is'hoqov", "asar": "keyingi navoiyshunoslik", "tafovut": "Shamsiyev badiiy matnni tiklashga ustuvor ahamiyat beradi; keyingi tadqiqotchilar shu tiklangan matn asosida talqin, poetika va izoh bilan shug'ullanadilar." }
+      ],
+      "kuchli_jihatlar": [
+        "Tayanch nusxani belgilashda ilmiy mezon — \"aslah an-nusax\" + muallif davriga bevositalik dalili;",
+        "Ilmiy apparatda mo'tadillik — ravon matnni saqlagan holda muqobala dalillarini bekor qilmaslik (ixchamlik va ishonchlilik qutbi);",
+        "Ilmiy xolislik va axloq — \"matnshunos harf ortidan ma'no izlaydi, lekin ma'no ortidan g'araz izlamaydi\" (Haqqul, \"qalbgoh/kalbgoh\" misoli)."
+      ],
+      "cheklanishlar": "Faoliyati davrning ilmiy-texnik imkoniyatlari bilan chegaralangan: raqamli nusxalar, xalqaro kataloglar, elektron qiyoslash, kodikologik vositalar bo'lmagan. Ilmiy-tanqidiy matn nazariyasi hali qat'iy terminologik tizimga ega emas edi — ko'p tamoyilni amaliy qo'llagan, lekin mustaqil nazariy boblar shaklida tizimlashtirmagan. Bu shaxsiy zaiflik emas, balki butun maktabning shakllanish bosqichi holati."
+    },
+
+    "hissasi": {
+      "sarlavha": "Porso Shamsiyevning matnshunoslik ilmiga qo'shgan hissasi",
+      "qism_belgisi": "MARKAZIY MAVZU",
+      "markaziy": true,
+      "kirish_matni": "Ushbu loyihaning o'zak mavzusi — Porso Shamsiyevning matnshunoslik ilmiga qo'shgan hissasini har tomonlama yoritish. Uning hissasi faqat nashr etilgan kitoblar sonida emas, balki matn bilan ishlash madaniyatini ilmiy maktab darajasiga olib chiqqani, mumtoz Sharq tahqiq an'anasini zamonaviy filologik metod bilan tutashtirgani va keyingi avlodlar uchun ishonchli ilmiy poydevor qoldirgani bilan o'lchanadi.",
+      "hissalar": [
+        {
+          "sarlavha": "1. Yaxlit ilmiy-tanqidiy matn manhajini yaratdi",
+          "matn": "Shamsiyev mumtoz asar matnini tiklashning izchil, takrorlanuvchi va tekshirib bo'ladigan tartibini ishlab berdi: manbalarni to'plashdan tayanch nusxa tanlash, muqobala, ilmiy apparat, tas'hih va lakunalarni tiklashgacha bo'lgan o'n bosqichli tizim. Bu tizim o'zbek matnshunosligi uchun namunaviy qolipga aylandi."
+        },
+        {
+          "sarlavha": "2. Mumtoz an'ana bilan jahon metodini birlashtirdi",
+          "matn": "Uning manhaji — mumtoz islomiy ilmdagi tahqiq, tas'hih va muqobala usullarining zamonaviy, ilmiy jihatdan mukammallashgan davomi. Olim g'arbona atamalar emas, aynan shu mumtoz tushunchalar zaminida ishlab, milliy-mumtoz an'ana bilan jahon tekstologiyasi (Nizomiy, Firdavsiy nashrlari tajribasi) o'rtasida ko'prik vazifasini o'tadi."
+        },
+        {
+          "sarlavha": "3. \"Xamsa\"ning to'liq ilmiy-tanqidiy matnini berdi",
+          "matn": "Navoiy \"Xamsa\"sining besh dostoni — o'n minglab bayt — ustida yillar davomida ishlab, har dostonning olti nusxasini bayt-bayt qiyoslab, ishonchli matn yaratdi. Bu matn keyingi o'zbek navoiyshunosligi va matnshunosligining tayanch manbalaridan biriga aylandi; bugun ham tadqiqotchilar Navoiy tili, uslubi va poetikasini o'rganishda aynan shu matnga murojaat qiladilar."
+        },
+        {
+          "sarlavha": "4. Tayanch nusxa tanlashning ilmiy mezonini o'rnatdi",
+          "matn": "Shamsiyev qo'lyozmalarni bir xil darajada ko'rmaydi: barcha nusxa guvoh bo'lishi mumkin, lekin barchasi birdek hukm chiqaruvchi dalil bo'la olmaydi. \"Sab'ai sayyor\"da Abduljamil nusxasini tanlashi shunchaki qadimiylik bilan emas, muallif davriga bevositaligi, to'liqligi va baytlar miqdorining muallif qaydiga mosligi bilan asoslanadi — bu Sharq tahqiqidagi \"aslah an-nusax\" usuliga hamohang."
+        },
+        {
+          "sarlavha": "5. Lug'atshunoslikka fundamental hissa qo'shdi",
+          "matn": "\"Navoiy asarlari lug'ati\" (12 500 bosh so'z, 8 000+ ibora) XV asr o'zbek adabiy tilining normasini tizimli aks ettiruvchi fundamental ish bo'lib, matnshunoslik va tilshunoslik uchun bebaho manbadir. Lug'atsiz matnshunoslik — qorong'ida yo'l topishga urinishga o'xshaydi degan an'anani olim teran his etgan."
+        },
+        {
+          "sarlavha": "6. Yangi qo'lyozma manbalarni kashf etdi",
+          "matn": "Matnshunoslikni faqat mavjud nusxalar tahlili emas, balki yangi manbalarni izlab topish faoliyati sifatida ham tushundi: Qozon fondidan \"Xamsa\"ning XVI asr nusxasini, Navoiy \"Ilk devon\"ining 1568-yilgi Hirot nusxasini, \"Badoye' ul-bidoya\"ning yangi nusxasini topib, ilmiy muomalaga kiritdi va tavsifladi."
+        },
+        {
+          "sarlavha": "7. Navoiy 15 tomligining to'qqiz tomini tayyorladi",
+          "matn": "15 tomlik akademik nashrning 6, 7, 8, 9, 10, 11, 13, 14 va 15-tomlarini bevosita nashrga tayyorlab, ilmiy jamoadagi yetakchi mavqeyini namoyon etdi."
+        },
+        {
+          "sarlavha": "8. Matnga \"omonatdorlik\" — ilmiy odob maktabini qoldirdi",
+          "matn": "Shamsiyev uchun matn bosmaga tayyorlanadigan oddiy yozuv emas, balki avloddan avlodga o'tadigan ma'naviy omonat edi. Ilmiy halollik (o'z xatosini tan olish), kamtarlik, hamkasb hissasini e'tirof etish va xolislik — uning metodining ruhiy-axloqiy asosini tashkil etadi. I.Haqqul uni shu maktabning \"piri\" sifatida ta'riflaydi: uning ilmiy odobi keyingi avlod uchun faqat metod emas, mezon bo'lib qoldi."
+        },
+        {
+          "sarlavha": "9. Keyingi tadqiqotlar uchun ishonchli poydevor qo'ydi",
+          "matn": "Asar matni bir marta puxta tiklanib, barcha nusxa farqlari hujjatlashtirilgach, undan keyingi ommabop, izohli yoki tarjima nashrlari shu ishonchli zaminga tayanadi. Shamsiyev ishi bir martalik vazifa emas, butun bir tadqiqot an'anasining poydevorini qo'yish edi. Bugungi tadqiqotchilar (A.Malikov va b.) uning ishini qayta ko'rib, yig'ma-qiyosiy matn, kontekstual tahlil va Navoiy qo'lyozmalarining jahon fihristini yaratish vazifalarini kun tartibiga qo'ymoqda."
+        }
+      ],
+      "xulosa": "Porso Shamsiyev o'zbek matnshunosligida nafaqat ilmiy-tanqidiy matn yaratgan olim, balki matn bilan muomala qilish metodi va odobini ko'rsatib bergan ustozdir. Uning hissasi — matnshunoslikni mumtoz tahqiq an'anasi bilan zamonaviy ilm o'rtasidagi uzviy davomiylikda, ilmiy maktab darajasida qaror toptirgani va bu ilmni ma'naviy mas'uliyat sifatida talqin etganidir."
+    },
+
+    "yangilik": {
+      "sarlavha": "Ilmiy yangilik va o'ziga xoslik",
+      "qism_belgisi": "KIRISH · Ilmiy yangilik",
+      "kirish_matni": "Tadqiqotning ilmiy yangiligi olim merosiga yangi, yaxlit va qiyosiy nuqtai nazardan yondashishda namoyon bo'ladi.",
+      "yangiliklar": [
+        { "raqam": 1, "matn": "O'zbek matnshunosligining shakllanishi ilk bor Sharq tahqiq an'analari (tahqiq, tas'hih, muqobala) bilan uzviy bog'liqlikda asoslab berildi." },
+        { "raqam": 2, "matn": "Porso Shamsiyev faoliyati faqat navoiyshunoslik doirasida emas, balki o'zbek matnshunosligi shakllanishining muhim bosqichi sifatida baholandi." },
+        { "raqam": 3, "matn": "Olimning ilmiy-tanqidiy matn yaratish manhaji yaxlit tizim sifatida umumlashtirildi." },
+        { "raqam": 4, "matn": "Olim metodi boshqa o'zbek matnshunoslari tajribasi bilan qiyoslanib, o'ziga xos yondashuvlari ajratildi." },
+        { "raqam": 5, "matn": "Olim merosi bugungi matnshunoslik uchun amaliy tajriba, ilmiy maktab va manbaga omonatdorlik namunasi sifatida baholandi." }
+      ],
+      "ozigaxoslik": {
+        "sarlavha": "Ishning o'ziga xosligi",
+        "royxat": [
+          "Diniy (madrasa) va dunyoviy (akademik) ilm uyg'unligi nuqtai nazaridan yozilgani — Imom Buxoriy nomidagi Toshkent islom instituti yo'nalishiga mos;",
+          "Manba sifatida olimning o'z maqolasi (\"Xamsa\" dostonlari ITM prinsiplari) va arxiv qo'lyozuvlari (avtograflar) jalb etilgani;",
+          "Sharqning klassik tahqiq nazariyasi (Horun, Munajjid, Bashshor Avvod Ma'ruf, Naji asarlari) bilan o'zbek matnshunosligi amaliyotining bog'langani;",
+          "Metodni shaxslar emas, mezonlar darajasida qiyoslagani — ilmiy maktab ichidagi o'rin va o'ziga xoslikni xolis ko'rsatish."
+        ]
+      }
+    },
+
+    "arxiv": {
+      "sarlavha": "Arxiv — avtograf va qo'lyozuvlar",
+      "qism_belgisi": "Birlamchi manbalar",
+      "kirish_matni": "Olimning shaxsiy kutubxonasidan joy olgan avtograf-qo'lyozuvlari uning matn bilan ishlash madaniyati, ilmiy aloqalari va ichki ma'naviy qiyofasini bevosita ko'rsatuvchi birlamchi manbadir. Quyida ulardan uchtasi keltiriladi.",
+      "elementlar": [
+        {
+          "rasm": "avtograf1.png",
+          "nom": "1-rasm. Sobirjon Ibrohimovga bildiruv-xat (old taraf)",
+          "sana": "1968-yil 20-fevral",
+          "tavsif": "Sarg'ish kartochka qog'oziga qora qalam bilan nasta'liq xatida yozilgan bildiruv-xat (9×12 sm). Olim hamkasbi, tilshunos Sobirjon Ibrohimov huzuriga kelgan, ammo uni o'rnida topolmay, shu xatni qoldirgan. \"Navoiy asarlari lug'ati\"ning \"Mim harfi\" qismini olib kelgan.",
+          "ahamiyat": "Porsoxon domla bu kichik bitikda to'lasicha Navoiy nasrining uslubiga amal qilgan — mumtoz maktub bitish an'anasiga rioya qilingan. Imzo o'rnidagi \"al-abd az-zaif an-nahif Porso\" nisbasi mumtoz kotiblar imzosiga xos kamtarlik an'anasini eslatadi."
+        },
+        {
+          "rasm": "avtograf2.png",
+          "nom": "2-rasm. Sobirjon Ibrohimovga bildiruv-xat (orqa taraf)",
+          "sana": "1968-yil 20-fevral",
+          "tavsif": "Xuddi shu bildiruv-xatning orqa tarafi. Matnda mumtoz maktub uslubiga xos iboralar: \"...borgohi oliy dargohg'a behad tayyi marohil qilib... mahzuniyat dilni kuduratg'a soldi.\"",
+          "ahamiyat": "Bitta kichik xatning o'zi ham olim tafakkurida mumtoz matn uslubi qanchalik teran o'rnashganini ko'rsatadi."
+        },
+        {
+          "rasm": "avtograf3.png",
+          "nom": "3-rasm. A.A.Garriskiy risolachasi titul sahifasidagi qayd",
+          "sana": "1972-yil (Hodi Zarif vafotidan so'ng)",
+          "tavsif": "1927-yil Toshkentda chop etilgan A.A.Garriskiyning O'rta Osiyo turkiy qo'lyozmasiga oid risolachasi titul sahifasiga arab yozuvida qora qalam va safsar siyohda bitilgan qaydlar. Risolacha folklorshunos Hodi Zarif tomonidan Shamsiyevga Abduljamil kotib shaxsiyatini aniqlash uchun taqdim etilgan.",
+          "ahamiyat": "\"Rahmat birodarim!\" deya minnatdorlik bildirishi davr olimlari orasidagi o'zaro ishonch, madad va manba almashish madaniyatini yorqin aks ettiradi."
+        }
+      ]
+    }
+  },
+
+  "lugat": {
+    "sarlavha": "Atama va iboralar izohi",
+    "kirish": "Bitiruv diplom ishida qo'llangan asosiy ilmiy hamda matnshunoslik-manbashunoslikka oid atama va iboralarning qisqacha izohi (o'zbek alifbosi tartibida).",
+    "atamalar": [
+      { "soz": "Apparat (ilmiy apparat)", "izoh": "Ilmiy-tanqidiy nashrga ilova qilinadigan izohlar, nusxa farqlari, shartli belgilar va ko'rsatkichlar tizimi." },
+      { "soz": "Arxetip", "izoh": "Asarning mavjud nusxalari kelib chiqqan deb taxmin qilinadigan eng qadimiy umumiy manba nusxa." },
+      { "soz": "Aruz", "izoh": "Hijolarning cho'ziq-qisqaligiga asoslangan mumtoz she'riy vazn tizimi; baytning to'g'ri o'qilishini tekshirish mezonlaridan biri." },
+      { "soz": "\"Aslah an-nusax\"", "izoh": "Mavjud qo'lyozmalar ichidan eng munosib va ishonchli nusxani aniqlash tamoyili." },
+      { "soz": "Avtograf", "izoh": "Muallifning o'z qo'li bilan yozgan matni, dastxati." },
+      { "soz": "Badal", "izoh": "Ko'chirish jarayonida matndagi bir so'zning boshqa so'z bilan almashib qolishi." },
+      { "soz": "Bayoz", "izoh": "Turli shoirlar she'rlaridan tanlab tuzilgan qo'lyozma to'plam." },
+      { "soz": "Bayt", "izoh": "Mumtoz she'riyatda ikki misradan iborat she'riy birlik." },
+      { "soz": "Bitiktosh", "izoh": "Qadimgi turkiy xalqlardan qolgan, toshga o'yib bitilgan yozma yodgorlik." },
+      { "soz": "Devon", "izoh": "Shoir she'rlarining muayyan tartibda jamlangan to'plami." },
+      { "soz": "Diroyat", "izoh": "Rivoyat qilingan matnni aql, usul, lug'at va dalil asosida anglab, tanqidiy baholash." },
+      { "soz": "Doston", "izoh": "Mumtoz adabiyotdagi yirik hajmli epik she'riy asar." },
+      { "soz": "Fihrist", "izoh": "Qo'lyozma va kitoblarning ilmiy ro'yxati, katalogi." },
+      { "soz": "Hadis", "izoh": "Rasululloh sollallohu alayhi va sallamning so'zlari, fe'llari va taqrirlari haqidagi rivoyat." },
+      { "soz": "Hanafiy-Moturidiy an'ana", "izoh": "Fiqhda Imom A'zam Abu Hanifa, aqidada Imom Abu Mansur Moturidiy ta'limotiga tayangan, Movarounnahrda keng tarqalgan Ahli sunna val-jamoa ilmiy maktabi." },
+      { "soz": "Hoshiya", "izoh": "Qo'lyozma sahifasining cheti hamda shu chetga yozilgan izoh, tuzatish va qaydlar." },
+      { "soz": "Ijoza", "izoh": "Ustozning shogirdga matnni rivoyat qilish yoki o'qitish huquqini beruvchi ruxsatnomasi." },
+      { "soz": "Ilmiy-tanqidiy matn", "izoh": "Asarning barcha e'tiborli nusxalarini qiyosiy o'rganish asosida muallif matniga eng yaqin holda tiklangan, har bir tafovuti ilmiy apparatda ko'rsatilgan matn." },
+      { "soz": "Isnod (sanad)", "izoh": "Matn yoki xabarni yetkazgan roviylar zanjiri." },
+      { "soz": "Istiloh", "izoh": "Muayyan ilm sohasida maxsus ma'no yuklangan atama." },
+      { "soz": "Istishhod", "izoh": "Fikrni dalillash uchun oyat, hadis yoki bayt keltirish; shohid sifatida keltirilgan matn." },
+      { "soz": "Kalom", "izoh": "Islom aqidasi masalalarini dalillar bilan asoslab beruvchi ilm." },
+      { "soz": "Kitobat", "izoh": "Kitobni ko'chirish, bezash va nashrga tayyorlashga oid bilim va hunarlar majmui." },
+      { "soz": "Kodikologiya", "izoh": "Qo'lyozma kitobning moddiy tuzilishini (qog'ozi, muqovasi, daftarlari) o'rganuvchi fan." },
+      { "soz": "Kolofon", "izoh": "Qo'lyozma oxirida kotib qoldirgan qayd: ko'chirilgan joyi, sanasi, kotib nomi." },
+      { "soz": "Kotib", "izoh": "Qo'lyozma asarni ko'chiruvchi shaxs." },
+      { "soz": "Lakuna", "izoh": "Matndagi tushib qolgan yoki o'qib bo'lmaydigan o'rin, bo'shliq." },
+      { "soz": "Litografiya (toshbosma)", "izoh": "Matnni maxsus tosh qolip vositasida ko'paytirish usuli va shu usulda chop etilgan nashr." },
+      { "soz": "Manba", "izoh": "Tadqiqot tayanadigan asl yozma yodgorlik, hujjat yoki nashr." },
+      { "soz": "Manbashunoslik", "izoh": "Yozma manbalarning kelib chiqishi, muallifi, tarixi va ishonchliligini o'rganuvchi fan." },
+      { "soz": "Manhaj", "izoh": "Ilmiy faoliyatda tutilgan yo'l, uslubiy tizim, metod." },
+      { "soz": "Manoqib", "izoh": "Allomalar va azizlarning fazilatlari bayon etilgan asar." },
+      { "soz": "Matn", "izoh": "Muallif tomonidan yaratilib, yozuvda qayd etilgan asarning so'z tarkibi." },
+      { "soz": "Matnshunoslik (tekstologiya)", "izoh": "Matnlar tarixini va nusxalar nisbatini o'rganib, asarning ishonchli matnini tiklash bilan shug'ullanuvchi fan." },
+      { "soz": "Muhaqqiq", "izoh": "Tahqiq ilmi bilan shug'ullanuvchi, matnni ilmiy asosda tiklovchi olim." },
+      { "soz": "Muqobala", "izoh": "Bir nusxani boshqa nusxa yoki asl deb qabul qilingan matn bilan solishtirib, tafovutlarni aniqlash amali." },
+      { "soz": "Musʼhaf", "izoh": "Qur'oni karimning kitob holidagi yozma nusxasi." },
+      { "soz": "Muxtasar", "izoh": "Yirik asar mazmunining qisqartirilgan bayoni." },
+      { "soz": "Nasabnoma", "izoh": "Avlod-ajdod silsilasi bayon etilgan asar." },
+      { "soz": "Nasta'liq", "izoh": "Arab yozuvining nafis, egma xat turi; Movarounnahr va Xuroson qo'lyozmalarida keng qo'llangan." },
+      { "soz": "Nasx", "izoh": "1) Arab yozuvining aniq va o'qishga qulay xat turi; 2) usul ilmida keyingi shar'iy dalil bilan oldingi hukm amalining bekor qilinishi." },
+      { "soz": "Nuqson", "izoh": "Matndan so'z, satr yoki baytning tushib qolishi." },
+      { "soz": "Nusxa", "izoh": "Asarning muayyan qo'lyozma yoki bosma ko'rinishi." },
+      { "soz": "Omonatdorlik", "izoh": "Matnni buzmasdan, ishonchli holda saqlash va yetkazish borasidagi ilmiy-axloqiy mas'uliyat." },
+      { "soz": "Paleografiya", "izoh": "Qadimiy yozuvlarning shakli, taraqqiyoti va o'qilishini o'rganuvchi fan." },
+      { "soz": "Poygir", "izoh": "Qo'lyozma sahifasi oxirida keyingi sahifaning birinchi so'zini ko'rsatib qo'yiladigan belgi." },
+      { "soz": "Qiroat", "izoh": "Qur'oni karim matnini sanad bilan e'tirof etilgan usullarda o'qish ilmi." },
+      { "soz": "Rasm al-musʼhaf", "izoh": "Musʼhaf yozuvida qo'llanadigan o'ziga xos imlo tartibi." },
+      { "soz": "Rivoyat", "izoh": "Matn yoki xabarni ishonchli yo'l bilan keyingi avlodga yetkazish." },
+      { "soz": "Sahv", "izoh": "Beixtiyor yo'l qo'yilgan xato, yanglishish." },
+      { "soz": "Samoʻ", "izoh": "Matnni ustozdan bevosita eshitib o'zlashtirish va shu asosda uni rivoyat qilish huquqi." },
+      { "soz": "Sharh", "izoh": "Asar matnini so'zi, ma'nosi, manbasi va dalillari bilan ochib beruvchi izohli asar." },
+      { "soz": "Tafsir", "izoh": "Qur'oni karim oyatlari ma'nolarini ochib beruvchi ilm va shu ilmga oid asar." },
+      { "soz": "Tahqiq", "izoh": "Asarning turli nusxalari, tarixiy ma'lumotlar va dalillar asosida muallifga eng yaqin matnini ilmiy tiklash faoliyati." },
+      { "soz": "Tahrif", "izoh": "Matndagi so'z shakli yoki ma'nosining o'zgartirilishi, buzilishi." },
+      { "soz": "Ta'liq", "izoh": "Matn yuzasidan yozilgan qisqa izoh, eslatma." },
+      { "soz": "Talmeh", "izoh": "Mashhur voqea, shaxs, oyat yoki hadisga ishora qilish san'ati." },
+      { "soz": "Taqriz", "izoh": "Ilmiy yoki adabiy asarga yozilgan baho, fikr-mulohaza." },
+      { "soz": "Tas'hih", "izoh": "Matndagi xatolarni yozuv, ma'no, vazn va ilmiy dalil asosida tuzatish." },
+      { "soz": "Tas'hif", "izoh": "Harflar o'xshashligi yoki nuqtalarning chalkashuvi natijasida so'zning noto'g'ri o'qilishi yoxud yozilishi." },
+      { "soz": "Tayanch (asos) nusxa", "izoh": "Ilmiy-tanqidiy matn tuzishda asos qilib olinadigan eng ishonchli va e'tiborli nusxa." },
+      { "soz": "Tazkira", "izoh": "Shoirlar hayoti, ijodiy muhiti va asarlaridan namunalar jamlangan asar." },
+      { "soz": "Transliteratsiya", "izoh": "Matnni bir yozuv tizimidan boshqasiga harfma-harf o'tkazish." },
+      { "soz": "Usul al-fiqh", "izoh": "Shar'iy hukmlarni dalillardan chiqarib olish qoidalarini o'rganuvchi ilm." },
+      { "soz": "Vaqf qaydi", "izoh": "Kitobning muayyan maqsad yo'lida vaqf qilinganini bildiruvchi yozuv." },
+      { "soz": "Variant", "izoh": "Matnning turli nusxalardagi farqli o'qilishi." },
+      { "soz": "Xattot", "izoh": "Husnixat ustasi, kitob ko'chirish san'atining sohibi." },
+      { "soz": "Yig'ma-qiyosiy matn", "izoh": "Nusxalardagi farqlarni jamlab ko'rsatuvchi, ammo har bir o'rinda muallif lafzini qat'iy belgilashni maqsad qilmagan matn." },
+      { "soz": "Zabt", "izoh": "Matnni harakatlari va nuqtalari bilan aniq, xatosiz qayd etish." },
+      { "soz": "Ziyoda", "izoh": "Matnga keyinchalik qo'shilib qolgan ortiqcha so'z yoki jumla." }
+    ]
+  },
+
+  "kutubxona": {
+    "sarlavha": "Manbalarni o'qish kutubxonasi",
+    "kirish": "Quyidagi manbalarni bevosita shu sahifada, faqat o'qish rejimida ochishingiz mumkin. Yangi fayllar qo'shilgan sari kutubxona kengayadi.",
+    "elementlar": [
+      { "slug": "bdi", "bolim": "Birlamchi manbalar", "sarlavha": "Bitiruv diplom ishi — to'liq matn", "muallif": "Sotvoldiyev Fayzulla Sayfulla o'g'li", "tur": "Birlamchi manba", "manba": "pdf-embed", "src": "BDI_PDF", "meta": "72 bet · PDF", "izoh": "Mazkur arxiv-sayt asosidagi tadqiqotning to'liq ilmiy matni: kirish, ikki bob (to'rt band), xulosa, adabiyotlar ro'yxati va atamalar izohi bilan." },
+      { "slug": "shamsiyev_maqola", "bolim": "Birlamchi manbalar", "sarlavha": "«Xamsa» dostonlarining ilmiy-tanqidiy matnlari va ularni tuzish prinsiplari", "muallif": "P. Shamsiyev", "tur": "Olim maqolasi", "manba": "pdf-file", "src": "manbalar/shamsiyev_xamsa_prinsiplari.pdf", "meta": "Oltin bitiglar, 2019/1 · 18 bet", "izoh": "Shamsiyevning manhajini o'z so'zi bilan bayon etgan asosiy maqolasi — olim metodini o'rganishdagi eng ishonchli birlamchi manba." },
+      { "slug": "navoiy_xamsa", "bolim": "Shamsiyev tadqiq etgan mumtoz asarlar", "sarlavha": "Alisher Navoiy. «Xamsa»", "muallif": "Alisher Navoiy", "tur": "Mumtoz manba", "manba": "havola", "src": "https://n.ziyouz.com/kutubxona/category/40-alisher-navoiy-asarlari", "meta": "ziyouz.com kutubxonasi", "izoh": "«Xamsa»ning besh dostoni (Hayrat ul-abror, Farhod va Shirin, Layli va Majnun, Sab'ai sayyor, Saddi Iskandariy) — nazm va nasriy bayoni. Shamsiyev aynan shu dostonlarning ilmiy-tanqidiy matnini tuzgan." },
+      { "slug": "boburnoma", "bolim": "Shamsiyev tadqiq etgan mumtoz asarlar", "sarlavha": "Zahiriddin Muhammad Bobur. «Boburnoma»", "muallif": "Zahiriddin Muhammad Bobur", "tur": "Mumtoz manba", "manba": "havola", "src": "https://www.ziyouz.com/kutubxona/barcha-kitoblar", "meta": "ziyouz.com · akademik nashr", "izoh": "Shamsiyev S. Mirzayev bilan birgalikda «Boburnoma»ning to'liq nashrini amalga oshirgan. Havola orqali ziyouz kutubxonasidagi «Boburnoma (akademik nashr)»ni toping." },
+      { "slug": "xondamir", "bolim": "Shamsiyev tadqiq etgan mumtoz asarlar", "sarlavha": "G'iyosiddin Xondamir. «Makorim ul-axloq»", "muallif": "G'iyosiddin Xondamir", "tur": "Mumtoz manba", "manba": "havola", "src": "https://kh-davron.uz/kutubxona/alisher-navoiy/xondamir-makorimul-axloqdan.html", "meta": "kh-davron.uz kutubxonasi", "izoh": "Navoiy hayoti va faoliyati haqidagi qimmatli manba. Shamsiyev bu asarni o'zbek tiliga tarjima qilgan." },
+      { "slug": "anjuman_125", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Porso Shamsiyev tavalludining 125-yilligiga bag'ishlangan respublika ilmiy anjumani materiallari (I kitob)", "muallif": "FA O'zbek tili, adabiyoti va folklori instituti", "tur": "Anjuman materiali", "manba": "pdf-file", "src": "manbalar/anjuman_125_yillik.pdf", "meta": "Toshkent, 2022 · 86 bet", "izoh": "I. Haqqul, H. Boltaboyev, O. Jo'raboyev, S. Rafiddinov, Z. Rahmonova maqolalari — olim merosini zamonaviy mezonlar asosida qayta baholash." },
+      { "slug": "shodmonov_magistr", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Porso Shamsiyev – adabiyotshunos va matnshunos (magistrlik dissertatsiyasi)", "muallif": "G'. N. Shodmonov", "tur": "Dissertatsiya", "manba": "pdf-file", "src": "manbalar/shodmonov_magistrlik.pdf", "meta": "Qarshi DU, 2015 · 56 bet", "izoh": "Olim faoliyatiga bag'ishlangan maxsus tadqiqot." },
+      { "slug": "shodmonov_phd", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Porso Shamsiyev ilmiy laboratoriyasi: tadqiq usullari, tamoyillari, matnshunoslik taraqqiyotidagi o'rni (PhD dissertatsiyasi)", "muallif": "G'. N. Shodmonov", "tur": "PhD dissertatsiyasi", "manba": "pdf-file", "src": "manbalar/shodmonov_phd.pdf", "meta": "Toshkent, 2021 · 176 bet", "izoh": "Shamsiyevning ilmiy uslubi, tadqiq tamoyillari va matnshunoslikdagi o'rniga bag'ishlangan eng to'liq monografik tadqiqot." },
+      { "slug": "shodmonov_golden", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "O'zbek matnshunosligining ilk bosqichi va Navoiy «Xamsa»si nashrlarining takomili", "muallif": "G'. N. Shodmonov", "tur": "Maqola", "manba": "pdf-file", "src": "manbalar/shodmonov_golden_scripts_2021.pdf", "meta": "Oltin bitiglar, 2021 Vol.2 · 27 bet", "izoh": "Navoiy «Xamsa»si nashrlari tarixi va Shamsiyev ishining o'rni." },
+      { "slug": "ganiyeva_jannatmakon", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Porsoxon Shamsiyev: «Guhar cho'msa daryog'a…»", "muallif": "Suyima G'aniyeva", "tur": "Xotira maqolasi", "manba": "pdf-file", "src": "manbalar/ganiyeva_jannatmakon_2008.pdf", "meta": "Jannatmakon, 2008 · №2", "izoh": "Shogirdi Suyima G'aniyevaning xotiralari — olim ilmiy shaxsiyati, so'zga hurmati va shogirdlarga munosabati jonli tafsilotlarda." },
+      { "slug": "malikov_golden", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Navoiyshunoslik kontekstida matn tadqiqi («G'aroyib us-sig'ar» devoni misolida)", "muallif": "Akrom Malikov", "tur": "Maqola", "manba": "pdf-file", "src": "manbalar/malikov_golden_2023.pdf", "meta": "Oltin bitiglar, 2023 Vol.3 · 37 bet", "izoh": "Navoiy devoni matnini tadqiq etishda zamonaviy matnshunoslik yondashuvi — Shamsiyev maktabining davomi sifatida." },
+      { "slug": "boburnoma_sherlar", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "«Boburnoma»dagi noma'lum she'rlar (The Baburnama: the unknown poems)", "tur": "Maqola", "manba": "pdf-file", "src": "manbalar/boburnoma_nomalum_sherlar.pdf", "meta": "Filologik tadqiqotlar jurnali · 81 bet", "izoh": "«Boburnoma» matnidagi she'riy parchalar tadqiqi (Navoiy «Mezon ul-avzon»i misolida)." },
+      { "slug": "shaymanova", "bolim": "Tadqiqotlar va maqolalar", "sarlavha": "Z. Shaymanova. Matnshunoslik mavzusidagi maqola", "muallif": "Zulayho Shaymanova", "tur": "Maqola", "manba": "pdf-file", "src": "manbalar/shaymanova_maqola.pdf", "meta": "20 bet · skan nusxa", "izoh": "Maqola skan ko'rinishida — aniq sarlavha va manba ma'lumotini tasdiqlasangiz, yangilanadi." },
+      { "slug": "mahjuriy", "bolim": "Davr adabiy muhiti manbalari", "sarlavha": "Mahjuriy. «Hijratda o'tgan umr» — to'plam muqaddimasi", "muallif": "So'zboshi: Ibrohim Haqqul · nashrga tayyorlovchi: Sayfiddin Sayfulloh", "tur": "Adabiy manba", "manba": "pdf-file", "src": "manbalar/mahjuriy_hijratda_otgan_umr.pdf", "meta": "28 bet · PDF", "izoh": "Andijonlik shoir va navoiyshunos Mahjuriy (Muhammadxon mulla Is'hoq o'g'li) merosiga bag'ishlangan to'plam muqaddimasi. Mahjuriy poytaxtdagi yirik navoiyshunoslar safida — Shamsiyev tegishli bo'lgan ilmiy muhitda faoliyat yuritgan." },
+      { "slug": "khalid", "bolim": "Xalqaro tadqiqotlar", "sarlavha": "Making Uzbekistan: Nation, Empire, and Revolution in the Early USSR", "muallif": "Adeeb Khalid", "tur": "Xalqaro tadqiqot", "manba": "havola", "src": "https://www.cornellpress.cornell.edu/book/9781501735851/making-uzbekistan/", "meta": "Cornell University Press · 2015", "izoh": "Navoiy yubileyi davridagi ilmiy-madaniy muhit tarixi. Mualliflik huquqi sababli rasmiy nashriyot sahifasiga havola berilgan." },
+      { "slug": "shin", "bolim": "Xalqaro tadqiqotlar", "sarlavha": "Inventing a National Writer: The Soviet Celebration of the 1948 Alisher Navoi Jubilee…", "muallif": "Boram Shin", "tur": "Xalqaro tadqiqot", "manba": "havola", "src": "https://doi.org/10.1017/S1479591417000031", "meta": "Cambridge University Press · 2017", "izoh": "1948-yilgi Navoiy yubileyi va o'zbek tarixining yozilishi. Rasmiy DOI havolasi orqali ochiladi." },
+      { "slug": "qonun", "bolim": "Normativ hujjatlar", "sarlavha": "«Madaniy meros obyektlarini muhofaza qilish va ulardan foydalanish to'g'risida»gi Qonun", "muallif": "O'zbekiston Respublikasi", "tur": "Normativ hujjat", "manba": "havola", "src": "https://lex.uz/docs/25461", "meta": "lex.uz · 2001", "izoh": "2001-yil 30-avgust, № 269-II." },
+      { "slug": "pq2995", "bolim": "Normativ hujjatlar", "sarlavha": "PQ-2995-son Qaror — qadimiy yozma manbalarni saqlash tizimini takomillashtirish", "muallif": "O'zbekiston Respublikasi Prezidenti", "tur": "Normativ hujjat", "manba": "havola", "src": "https://lex.uz/docs/-3211987", "meta": "lex.uz · 2017", "izoh": "2017-yil 24-may." },
+      { "slug": "pq126", "bolim": "Normativ hujjatlar", "sarlavha": "PQ-126-son Qaror — qadimiy yozma manbalarni saqlash va tadqiq etish bo'yicha qo'shimcha chora-tadbirlar", "muallif": "O'zbekiston Respublikasi Prezidenti", "tur": "Normativ hujjat", "manba": "havola", "src": "https://lex.uz/ru/docs/-5854226", "meta": "lex.uz · 2022", "izoh": "2022-yil 10-fevral." }
+    ],
+    "izoh_qoshimcha": "Qo'shimcha manbalar fayllari loyiha xotirasiga yuklangach, ular ham shu yerda «O'qish» tugmasi bilan paydo bo'ladi. Mualliflik huquqi bilan himoyalangan xalqaro nashrlar to'liq fayl sifatida joylanmay, rasmiy manbaga havola qilinadi."
+  },
+
+  "manbalar": {
+    "sarlavha": "Foydalanilgan manba va adabiyotlar ro'yxati",
+    "guruhlar": [
+      {
+        "guruh": "1. Normativ-huquqiy hujjatlar",
+        "royxat": [
+          "O'zbekiston Respublikasining \"Madaniy meros obyektlarini muhofaza qilish va ulardan foydalanish to'g'risida\"gi Qonuni, 2001-yil 30-avgust, № 269-II.",
+          "O'zbekiston Respublikasi Prezidentining 2018-yil 16-apreldagi PF-5416-son \"Diniy-ma'rifiy soha faoliyatini tubdan takomillashtirish chora-tadbirlari to'g'risida\"gi Farmoni.",
+          "O'zbekiston Respublikasi Prezidentining 2017-yil 24-maydagi PQ-2995-son \"Qadimiy yozma manbalarni saqlash, tadqiq va targ'ib qilish tizimini yanada takomillashtirish chora-tadbirlari to'g'risida\"gi Qarori.",
+          "O'zbekiston Respublikasi Prezidentining 2017-yil 23-iyundagi PQ-3080-son Islom madaniyati markazini tashkil etish to'g'risidagi Qarori.",
+          "O'zbekiston Respublikasi Prezidentining 2022-yil 10-fevraldagi PQ-126-son \"Qadimiy yozma manbalarni saqlash va tadqiq etish tizimini takomillashtirishga doir qo'shimcha chora-tadbirlar to'g'risida\"gi Qarori."
+        ]
+      },
+      {
+        "guruh": "2. Manbalar",
+        "royxat": [
+          "Alisher Navoiy. Sab'ai sayyor. Ilmiy-tanqidiy matn. Tayyorlovchi P. Shamsiyev. – Toshkent: O'zSSR FA nashriyoti, 1956. – 464 b.",
+          "Alisher Navoiy. Farhod va Shirin. Ilmiy-tanqidiy matn. Tayyorlovchi P. Shamsiyev. – Toshkent: O'zSSR FA nashriyoti, 1963. – 394 b.",
+          "Alisher Navoiy. Hayrat ul-abror. Ilmiy-tanqidiy matn. Tayyorlovchi P. Shamsiyev. – Toshkent: O'zSSR FA nashriyoti, 1970. – 320 b.",
+          "Alisher Navoiy nomidagi Davlat adabiyot muzeyi. Porso Shamsiyev arxiv fondi. 50-papka. 1-hujjat. – 12 b.",
+          "S.Rafiddinov, M.Is'hoqov. Hijratda o'tgan umr. – Andijon, 2006. – 540 b."
+        ]
+      },
+      {
+        "guruh": "3. Ilmiy asarlar, monografiyalar va risolalar",
+        "royxat": [
+          "Porso Shamsiyev tavalludining 125-yilligiga bag'ishlangan respublika ilmiy anjumani materiallari. I kitob. – Toshkent: Adast poligraf, 2022. – 84 b.",
+          "Sapayeva F.D. Matnshunoslik. – Toshkent: Bookmany print, 2022. – 158 b.",
+          "Shamsiyev P. O'zbek matnshunosligiga oid tadqiqotlar. – Toshkent: Fan, 1986. – 163 b.",
+          "Sirojiddinov Sh. Matnshunoslik. O'quv-uslubiy majmua. – Toshkent: TDO'TAU, 2019. – 128 b.",
+          "Sirojiddinov Sh. Matnshunoslik saboqlari. – Toshkent: Navoiy universiteti, 2019. – 231 b.",
+          "Sirojiddinov Sh., Umarova S. O'zbek matnshunosligi qirralari. – Toshkent: Akademnashr, 2015. – 128 b.",
+          "Bashshor Avvod Ma'ruf. Zabt an-nass va at-ta'liq alayh. – Bayrut: Muassasat ar-Risola, 2019. – 82 b.",
+          "Horun A.M. Tahqiq an-nusus va nashruha. – Qohira: Maktabat al-Xonji, 1998. – 125 b.",
+          "Munajjid S.D. Qovo'id tahqiq al-maxtutot. – Bayrut: Dor al-kitob al-jadid, 1987. – 189 b.",
+          "Naji H. Muhadorot fi tahqiq an-nusus. – Bag'dod: Dor ash-shu'un as-saqofiyya, 1990. – 64 b."
+        ]
+      },
+      {
+        "guruh": "4. Ilmiy maqolalar",
+        "royxat": [
+          "Boltaboyev H. Porso Shamsiyev va o'zbek matnshunosligi muammolari // 125-yillik anjumani materiallari. I kitob. – Toshkent: Adast poligraf, 2022.",
+          "G'aniyeva S. Porsoxon Shamsiyev: \"Guhar cho'msa daryog'a…\" // Jannatmakon. – Toshkent: Zamin Press, 2008. – №2.",
+          "G'aniyeva S., G'afurjonova T. Ulkan matnshunos olim // Shamsiyev P. O'zbek matnshunosligiga oid tadqiqotlar. – Toshkent: Fan, 1986.",
+          "Haqqul I. Matnshunoslik piri // 125-yillik anjumani materiallari. I kitob. – Toshkent: Adast poligraf, 2022.",
+          "Ilhomjonov L. G'afur G'ulom kutubxonasi tarixiga doir // Filologik tadqiqotlar. – Toshkent: Filolog, 2021. – №3. – B. 30–31.",
+          "Jalilova D. Gulshaniyning \"Gulistoni Gulshaniy\" asari qo'lyozmalari haqida // Filologik tadqiqotlar. – 2021. – №3. – B. 19–25.",
+          "Jo'raboyev O. Porso Shamsiyevning matnshunoslik faoliyati va ikki qo'lyozuvi xususida // 125-yillik anjumani materiallari. I kitob. – 2022. – B. 32–37.",
+          "Malikov A. Navoiyshunoslik kontekstida matn tadqiqi (\"G'aroyib us-sig'ar\" devoni misolida) // Oltin bitiglar — Golden scripts. – 2023. – №3. – B. 34–60.",
+          "Rafiddinov S. Porso Shamsiyevning \"Navoiy asarlari lug'ati\" xususida // 125-yillik anjumani materiallari. I kitob. – 2022. – B. 45–53.",
+          "Rahmonova Z. Alisher Navoiy asarlarining 15 tomlik nashrida Porso Shamsiyevning xizmatlari // 125-yillik anjumani materiallari. I kitob. – 2022. – B. 60–65.",
+          "Sanaev I. Olim Devona va uning \"Ravzai asror\" asari // Filologik tadqiqotlar. – 2021. – №3. – B. 10–18.",
+          "Shamsiyev P. \"Xamsa\" dostonlarining ilmiy-tanqidiy matnlari va ularni tuzish prinsiplari // Oltin bitiglar — Golden scripts. – 2019. – №1. – B. 3–22."
+        ]
+      },
+      {
+        "guruh": "5. Dissertatsiya va avtoreferatlar",
+        "royxat": [
+          "Shodmonov G'.N. Porso Shamsiyev – adabiyotshunos va matnshunos. Magistrlik dissertatsiyasi. – Qarshi: Qarshi DU, 2015. – 56 b.",
+          "Shodmonov G'.N. Porso Shamsiyev ilmiy laboratoriyasi: tadqiq usullari, tamoyillari, matnshunoslik taraqqiyotidagi o'rni. PhD dissertatsiyasi. – Toshkent, 2021. – 176 b."
+        ]
+      },
+      {
+        "guruh": "6. Chet tilidagi adabiyotlar",
+        "royxat": [
+          "Khalid A. Making Uzbekistan: Nation, Empire, and Revolution in the Early USSR. – Ithaca: Cornell University Press, 2015. – 415 p.",
+          "Shin B. Inventing a National Writer: The Soviet Celebration of the 500th Anniversary of Alisher Navoi… // International Journal of Asian Studies. – Cambridge UP, 2017. – Vol. 14, №2. – P. 117–142."
+        ]
+      },
+      {
+        "guruh": "Internet manbalari",
+        "royxat": [ "www.lex.uz" ]
+      }
+    ]
+  }
+}
